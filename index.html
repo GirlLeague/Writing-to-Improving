@@ -1,0 +1,1635 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<title>海怪！海怪！</title>
+<meta name="description" content="暗黑文艺复兴航海叙事：高小天与爱斯基摩海上的海怪传说，二十一幕滚动长卷。"/>
+<link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body data-act="1">
+
+<svg class="svg-defs" width="0" height="0" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="sky-storm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b4140"/><stop offset=".42" stop-color="#192d2d"/><stop offset=".78" stop-color="#0c1b1d"/><stop offset="1" stop-color="#071113"/>
+    </linearGradient>
+    <linearGradient id="sky-night" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#162c31"/><stop offset=".5" stop-color="#0b1a1f"/><stop offset="1" stop-color="#050d10"/>
+    </linearGradient>
+    <linearGradient id="sky-pale" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a7f71"/><stop offset=".45" stop-color="#47534d"/><stop offset=".72" stop-color="#263532"/><stop offset="1" stop-color="#171f1e"/>
+    </linearGradient>
+    <linearGradient id="sky-cold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5c6b68"/><stop offset=".48" stop-color="#2f4040"/><stop offset=".78" stop-color="#182727"/><stop offset="1" stop-color="#0c1719"/>
+    </linearGradient>
+    <linearGradient id="sky-dusk" x1="0" y1="0" x2="1" y2=".5">
+      <stop offset="0" stop-color="#7b674a"/><stop offset=".45" stop-color="#344a4a"/><stop offset="1" stop-color="#14272b"/>
+    </linearGradient>
+    <linearGradient id="sky-port" x1="0" y1="0" x2="1" y2=".4">
+      <stop offset="0" stop-color="#8a6947"/><stop offset=".44" stop-color="#4b5b56"/><stop offset="1" stop-color="#1c3438"/>
+    </linearGradient>
+    <linearGradient id="sea-deep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#183334"/><stop offset=".4" stop-color="#0c2022"/><stop offset="1" stop-color="#030c0d"/>
+    </linearGradient>
+    <linearGradient id="sea-black" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a1b1c"/><stop offset=".55" stop-color="#051011"/><stop offset="1" stop-color="#020707"/>
+    </linearGradient>
+    <radialGradient id="moon-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#d6d1ad" stop-opacity=".27"/><stop offset=".38" stop-color="#aeb09a" stop-opacity=".12"/><stop offset="1" stop-color="#6e7b72" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lamp-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#e3a45b" stop-opacity=".35"/><stop offset=".45" stop-color="#9a5d26" stop-opacity=".14"/><stop offset="1" stop-color="#5d3517" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="eye-haze" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#d8c89a" stop-opacity=".22"/><stop offset=".55" stop-color="#9b8e63" stop-opacity=".1"/><stop offset="1" stop-color="#151c17" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chart-shade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#060504" stop-opacity="0"/><stop offset=".3" stop-color="#060504" stop-opacity=".5"/>
+      <stop offset=".52" stop-color="#060504" stop-opacity=".6"/><stop offset=".76" stop-color="#060504" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#060504" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="eye-socket" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#050d0c" stop-opacity=".66"/><stop offset=".6" stop-color="#07100e" stop-opacity=".42"/>
+      <stop offset=".86" stop-color="#0a1311" stop-opacity=".14"/><stop offset="1" stop-color="#0a1311" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#cfb98a"/><stop offset=".5" stop-color="#b39a6e"/><stop offset="1" stop-color="#8c744f"/>
+    </linearGradient>
+    <linearGradient id="sail-cloth" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7d7b65"/><stop offset=".35" stop-color="#535b4d"/><stop offset=".68" stop-color="#354238"/><stop offset="1" stop-color="#121d18"/>
+    </linearGradient>
+    <linearGradient id="wave-green" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#071515"/><stop offset=".35" stop-color="#12312f"/><stop offset=".7" stop-color="#2f5149"/><stop offset="1" stop-color="#7d9180"/>
+    </linearGradient>
+    <linearGradient id="wall-warm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c2519"/><stop offset=".55" stop-color="#1a1710"/><stop offset="1" stop-color="#0d0d09"/>
+    </linearGradient>
+    <linearGradient id="wall-green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a2b21"/><stop offset=".6" stop-color="#0d1a13"/><stop offset="1" stop-color="#060c08"/>
+    </linearGradient>
+    <linearGradient id="door-glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e1a65e" stop-opacity=".55"/><stop offset=".42" stop-color="#8e5526" stop-opacity=".25"/><stop offset="1" stop-color="#20180d" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="clock-face" cx="45%" cy="40%" r="65%">
+      <stop offset="0" stop-color="#e0c795"/><stop offset=".6" stop-color="#b9a174"/><stop offset="1" stop-color="#786342"/>
+    </radialGradient>
+    <linearGradient id="floor-overhead" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171b18"/><stop offset=".5" stop-color="#0d1210"/><stop offset="1" stop-color="#070a09"/>
+    </linearGradient>
+    <pattern id="hatch" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(24)">
+      <path d="M0 0 V18" stroke="#d6c7a4" stroke-width=".5" opacity=".09"/>
+    </pattern>
+    <filter id="rough" x="-8%" y="-8%" width="116%" height="116%">
+      <feTurbulence type="fractalNoise" baseFrequency=".012 .17" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.4" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="rough2" x="-8%" y="-8%" width="116%" height="116%">
+      <feTurbulence type="fractalNoise" baseFrequency=".006 .09" numOctaves="3" seed="11" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="7" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="blur14"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="blur10"><feGaussianBlur stdDeviation="10"/></filter>
+
+    <symbol id="fig-gao" viewBox="0 0 220 470">
+      <g fill="#020606">
+        <path d="M74 126 C74 98 91 82 112 82 C134 82 151 98 151 126 L147 156 C139 170 84 170 76 156 Z"/>
+        <path d="M58 104 C76 84 148 84 166 104 L184 110 C156 104 84 104 56 110 Z"/>
+        <path d="M64 156 C84 144 138 144 160 156 L182 326 C160 352 44 352 24 326 Z"/>
+        <path d="M50 182 C34 230 30 288 38 338 L58 340 C54 286 58 234 72 190 Z"/>
+        <path d="M158 178 C178 218 184 272 178 320 L158 320 C160 274 154 226 140 190 Z"/>
+        <path d="M56 336 L70 456 L96 456 L101 342 L118 342 L124 456 L150 456 L162 334 Z"/>
+        <path d="M43 455 C57 446 82 446 98 455 L100 468 L38 468 Z"/>
+        <path d="M121 455 C138 446 158 446 168 455 L168 468 L118 468 Z"/>
+      </g>
+      <g fill="none" stroke="#b18b4f" opacity=".3">
+        <path d="M82 170 C86 240 84 310 76 344" stroke-width="1.1"/>
+        <path d="M143 168 C141 238 144 312 150 346" stroke-width="1"/>
+        <path d="M70 278 C92 288 132 288 154 278" stroke-width="1.2"/>
+        <path d="M94 132 C104 138 122 138 134 131" stroke-width=".9"/>
+        <circle cx="112" cy="106" r="3.2" stroke-width=".8"/>
+      </g>
+    </symbol>
+
+    <symbol id="fig-xie" viewBox="0 0 220 470">
+      <g fill="#020606">
+        <path d="M68 116 C56 190 44 310 36 446 L184 446 C174 316 162 196 150 116 C134 94 86 94 68 116 Z"/>
+        <path d="M82 94 C82 70 96 56 111 56 C126 56 140 70 140 94 L138 126 C130 140 91 140 84 126 Z"/>
+        <path d="M78 134 C94 124 130 124 144 134 L164 292 C140 312 84 312 60 292 Z"/>
+        <path d="M60 292 C54 342 48 400 40 446 L83 446 C87 380 90 334 96 300 Z"/>
+        <path d="M164 292 C172 342 178 400 182 446 L140 446 C136 380 132 334 126 300 Z"/>
+        <path d="M76 210 C56 218 44 238 48 258 L66 262 C66 244 72 228 84 220 Z"/>
+        <path d="M142 210 C162 218 174 238 170 258 L152 262 C152 244 146 228 134 220 Z"/>
+      </g>
+      <g fill="none" stroke="#b18b4f" opacity=".28">
+        <path d="M92 154 C88 210 88 258 94 292" stroke-width="1"/>
+        <path d="M132 154 C136 210 136 258 130 292" stroke-width="1"/>
+        <path d="M73 112 C76 150 74 196 68 232" stroke-width="1.2"/>
+        <path d="M150 112 C147 152 149 198 155 234" stroke-width="1.2"/>
+      </g>
+      <circle cx="158" cy="255" r="18" fill="#0b0d09" stroke="#c39b58" stroke-width="1.4"/>
+      <path d="M158 241 L163 253 L175 255 L163 258 L158 271 L153 258 L141 255 L153 253 Z" fill="#b18b4f" opacity=".5"/>
+    </symbol>
+
+    <symbol id="fig-jiang" viewBox="0 0 220 470">
+      <g fill="#020606">
+        <path d="M76 108 C76 82 92 66 110 66 C128 66 144 82 144 108 L140 142 C132 156 88 156 80 142 Z"/>
+        <path d="M74 146 C92 136 128 136 146 146 L166 338 C146 358 74 358 54 338 Z"/>
+        <path d="M58 338 C54 380 52 424 54 466 L94 466 L96 354 Z"/>
+        <path d="M162 338 C166 380 168 424 166 466 L126 466 L124 354 Z"/>
+        <path d="M61 176 C48 216 44 262 48 300 L64 300 C64 262 70 222 82 190 Z"/>
+        <path d="M154 176 C170 214 176 260 174 298 L158 298 C158 260 152 220 140 190 Z"/>
+      </g>
+      <g fill="none" stroke="#b18b4f" opacity=".32">
+        <path d="M110 146 V338" stroke-width="1.1"/>
+        <path d="M68 250 H152" stroke-width="1.2"/>
+        <path d="M62 170 C70 230 72 300 68 352" stroke-width=".8"/>
+      </g>
+      <path d="M99 240 H121 V338 H99 Z" fill="#b18b4f" opacity=".15"/>
+      <path d="M83 240 H137 V250 H83 Z" fill="#b18b4f" opacity=".22"/>
+    </symbol>
+
+    <symbol id="fig-jia" viewBox="0 0 220 470">
+      <g fill="#020606">
+        <path d="M80 112 C80 86 95 72 111 72 C127 72 142 86 142 112 L139 140 C131 152 91 152 83 140 Z"/>
+        <path d="M67 138 C84 128 138 128 154 138 L170 304 C152 322 70 322 50 304 Z"/>
+        <path d="M54 304 C48 352 48 408 54 458 L94 458 L98 320 Z"/>
+        <path d="M166 304 C172 352 172 408 166 458 L126 458 L122 320 Z"/>
+        <path d="M72 98 C88 86 138 86 154 98 L170 104 C144 98 94 98 68 104 Z"/>
+        <path d="M152 172 C174 196 190 230 204 268 L190 278 C176 244 158 214 138 194 Z"/>
+        <path d="M60 174 C48 192 42 216 40 240 L56 244 C58 220 64 200 74 186 Z"/>
+      </g>
+      <g fill="none" stroke="#b18b4f" opacity=".3">
+        <path d="M90 158 C88 212 88 270 94 306" stroke-width=".9"/>
+        <path d="M132 158 C136 214 136 272 130 306" stroke-width=".9"/>
+        <path d="M92 104 C96 116 126 116 132 104" stroke-width=".8"/>
+        <path d="M80 120 C92 108 130 108 142 120" stroke-width=".8"/>
+      </g>
+      <g fill="none" stroke="#d0b47a" opacity=".4">
+        <circle cx="101" cy="118" r="6"/><circle cx="122" cy="118" r="6"/>
+        <path d="M107 118 H116"/>
+      </g>
+      <path d="M176 258 C194 252 208 260 214 270 L202 282 L184 276 Z" fill="#b18b4f" opacity=".4"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="bar bar--top" aria-hidden="true"></div>
+<div class="bar bar--bottom" aria-hidden="true"></div>
+<div class="bar bar--left" aria-hidden="true"></div>
+<div class="bar bar--right" aria-hidden="true"></div>
+<div class="blood-veil" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+<main id="story">
+  <h1 class="sr-only">海怪！海怪！</h1>
+<!-- act 01 / wide / low / moon backlight / log / left-low / cold green -->
+  <section class="act act--log" data-act="1" aria-label="第 1 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+<defs>
+  <linearGradient id="sail-lit" x1="1112" y1="0" x2="1640" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#828a6c" stop-opacity=".3"/>
+    <stop offset=".3" stop-color="#5f6655" stop-opacity=".22"/>
+    <stop offset=".66" stop-color="#3a4136" stop-opacity=".16"/>
+    <stop offset="1" stop-color="#1b2220" stop-opacity=".12"/>
+  </linearGradient>
+</defs>
+    <rect width="1600" height="900" fill="#050c0d"/>
+    <ellipse cx="960" cy="240" rx="380" ry="240" fill="#cfd0b4" opacity=".045"/>
+    <g>
+      <path d="M1152 132 C1122 200 1108 300 1112 400 C1116 486 1128 560 1138 620 C1144 664 1152 690 1158 706 L1640 700 L1640 118 C1440 124 1280 128 1152 132 Z" fill="#39423a" opacity=".5"/>
+      <path d="M1152 132 C1122 200 1108 300 1112 400 C1116 486 1128 560 1138 620 C1144 664 1152 690 1158 706" fill="none" stroke="#8e9682" stroke-width="1.4" opacity=".22"/>
+      <path d="M1152 132 C1122 200 1108 300 1112 400 C1116 486 1128 560 1138 620 C1144 664 1152 690 1158 706" fill="none" stroke="#cfd2b2" stroke-width="3.2" opacity=".1"/>
+      <ellipse cx="1290" cy="330" rx="180" ry="150" fill="#8b957e" opacity=".07" filter="url(#blur14)"/>
+      <ellipse cx="1360" cy="560" rx="150" ry="90" fill="#0a1110" opacity=".18" filter="url(#blur14)"/>
+      <g fill="none" stroke="#0a1412" stroke-width="1.1" opacity=".45">
+        <path d="M1190 134 C1166 230 1158 330 1162 420 C1166 500 1176 570 1184 630"/>
+        <path d="M1240 130 C1218 240 1212 350 1218 440 C1224 520 1234 586 1242 640"/>
+        <path d="M1300 128 C1282 250 1278 380 1286 480 C1292 556 1302 610 1310 660"/>
+        <path d="M1360 126 C1346 260 1344 400 1352 500 C1358 570 1368 620 1376 668"/>
+        <path d="M1424 124 C1412 270 1412 420 1420 520 C1426 586 1436 632 1444 676"/>
+        <path d="M1492 122 C1482 280 1484 440 1490 540 C1496 602 1506 646 1514 684"/>
+        <path d="M1560 120 C1552 286 1554 450 1560 550" />
+      </g>
+      <g fill="none" stroke="#a7ac93" stroke-width=".9" opacity=".12">
+        <path d="M1160 210 C1240 200 1340 208 1440 200"/>
+        <path d="M1156 320 C1248 310 1360 318 1466 310"/>
+        <path d="M1152 430 C1250 420 1370 428 1482 420"/>
+        <path d="M1150 540 C1254 530 1380 538 1496 530"/>
+        <path d="M1156 646 C1260 638 1386 646 1500 638"/>
+      </g>
+      <path d="M1160 334 C1250 324 1360 330 1466 322" fill="none" stroke="#0d1715" stroke-width="3.4" opacity=".3"/>
+      <path d="M1160 342 C1250 332 1360 338 1466 330" fill="none" stroke="#0d1715" stroke-width="1.1" opacity=".35"/>
+      <g fill="#101a17" opacity=".5"><circle cx="1268" cy="330" r="2"/><circle cx="1352" cy="328" r="2"/><circle cx="1438" cy="326" r="2"/></g>
+      <path d="M1330 452 l74 -6 l10 62 l-78 8 z" fill="#5b6250" opacity=".17"/>
+      <path d="M1330 452 l74 -6" stroke="#0b1412" stroke-width="1" opacity=".4"/>
+      <path d="M1466 590 l54 -4 l6 44 l-58 6 z" fill="#4b5344" opacity=".14"/>
+      <path d="M1500 120 C1536 300 1540 520 1512 700 L1640 698 L1640 118 Z" fill="#070f0e" opacity=".26"/>
+      <path d="M1112 118 L1640 96 L1640 122 L1112 138 Z" fill="#0a1211" opacity=".96"/>
+      <path d="M1116 120 L1640 98" stroke="#b89a63" stroke-width="1.2" opacity=".14"/>
+      <path d="M1152 700 C1260 690 1380 700 1480 692 C1560 686 1600 690 1640 686" fill="none" stroke="#0a1211" stroke-width="7" opacity=".9"/>
+      <path d="M1154 704 C1270 694 1390 704 1500 696" fill="none" stroke="#a78d5c" stroke-width="1.3" opacity=".18"/>
+      <path d="M1108 690 C1180 748 1290 772 1400 776 L1400 700 L1152 700 Z" fill="#050c0b" opacity=".9"/>
+
+    <g>
+      <ellipse cx="150" cy="744" rx="80" ry="60" fill="#e0a862" opacity=".1" filter="url(#blur14)"/>
+      <path d="M139 718 L161 718 L160 726 L140 726 Z" fill="#050b0a"/>
+      <path d="M143 726 L157 726 L154 758 L146 758 Z" fill="#1a1610" opacity=".95"/>
+      <path d="M147 731 L153 731 L151 754 L149 754 Z" fill="#f3cf8e" opacity=".5"/>
+      <path d="M140 758 L160 758" stroke="#0a0f0c" stroke-width="1.6" opacity=".9"/>
+      <ellipse cx="150" cy="764" rx="26" ry="9" fill="#c88f52" opacity=".08" filter="url(#blur10)"/>
+    </g>
+    <g>
+      <path d="M1156 92 L1162 150 L1164 300 L1162 450 L1156 600 L1150 700" fill="none" stroke="#0a1311" stroke-width="10" opacity=".96"/>
+      <path d="M1160 92 L1166 150 L1168 300 L1166 450 L1160 600 L1154 700" fill="none" stroke="#6d7562" stroke-width="1.5" opacity=".26"/>
+      <path d="M1157 40 L1165 40 L1167 92 L1155 92 Z" fill="#0a120f"/>
+      <path d="M1161 40 L1161 16" stroke="#0a120f" stroke-width="4"/>
+      <path d="M1152 34 L1170 34" stroke="#8b7448" stroke-width="2" opacity=".3"/>
+      <path d="M1156 92 L1172 92" stroke="#8b7448" stroke-width="2.4" opacity=".26"/>
+      <g fill="none" stroke="#7d8571" stroke-width="2.2" opacity=".42">
+        <ellipse cx="1158" cy="170" rx="7" ry="3.4"/>
+        <ellipse cx="1161" cy="262" rx="7" ry="3.4"/>
+        <ellipse cx="1163" cy="356" rx="7" ry="3.4"/>
+        <ellipse cx="1162" cy="452" rx="7" ry="3.4"/>
+        <ellipse cx="1159" cy="548" rx="7" ry="3.4"/>
+        <ellipse cx="1153" cy="644" rx="7" ry="3.4"/>
+      </g>
+      <path d="M1152 700 L1170 700" stroke="#0a1311" stroke-width="7" opacity=".9"/>
+    </g>
+    <g stroke="#8fa090" stroke-width="1" opacity=".06" stroke-linecap="round">
+      <path d="M120 40 L96 190"/><path d="M300 10 L268 200"/><path d="M470 60 L444 240"/>
+      <path d="M640 20 L616 180"/><path d="M760 90 L740 250"/><path d="M900 30 L880 210"/>
+      <path d="M1040 70 L1020 230"/><path d="M1180 20 L1164 170"/><path d="M1320 60 L1304 240"/>
+      <path d="M1440 30 L1428 200"/><path d="M220 120 L200 280"/><path d="M560 140 L544 300"/>
+    </g>
+    </svg>
+      <h2 class="sr-only">第 1 幕</h2>
+      <article class="copy layout-log anchor-left-low">
+  <div class="copy-inner">
+    <p class="lead">暗沉的乌云从天边涌起，鼓胀的风吹满船帆。</p>
+    <p class="lead">传说在广阔的爱斯基摩海上，有一只海怪。</p>
+    <p>高小天手扶舵轮，看着并不平静的海面，心中充满了不安。</p>
+    <p>探索海洋本不应该是他这个年纪的老船长该做的事情，但有人说动了他。</p>
+    <p>现在，他有点后悔了。</p>
+        <p class="copy-hint">点击右下角舵轮，可继续向下航行</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 02 / mid / eye / oil lamp side / chart / right-mid / amber+green -->
+  <section class="act act--chart" data-act="2" aria-label="第 2 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect width="1600" height="900" fill="#191712"/>
+    <g opacity=".9">
+      <path d="M0 0 H1600 V650 H0 Z" fill="url(#wall-warm)"/>
+      <path d="M90 70 H700 V600 H90 Z" fill="#13120e"/>
+      <path d="M120 100 H670 V570 H120 Z" fill="#1b1912"/>
+      <path d="M740 0 V650 M1010 0 V650 M1280 0 V650 M1550 0 V650" stroke="#0c0b08" stroke-width="2" opacity=".5"/>
+      <path d="M0 600 H1600 V900 H0 Z" fill="#0d0e0b"/>
+      <path d="M0 610 H1600" stroke="#57462c" stroke-width="2" opacity=".25"/>
+    </g>
+    <ellipse cx="324" cy="414" rx="300" ry="260" fill="url(#lamp-glow)" opacity=".85"/>
+    <g filter="url(#rough)">
+      <path d="M170 590 L1320 604 L1380 790 L110 820 Z" fill="#2b2116"/>
+      <path d="M180 600 L1320 616 L1368 770 L128 800 Z" fill="#4b3822" opacity=".55"/>
+      <path d="M168 588 L1330 602 L1384 790 L104 822 Z" fill="none" stroke="#7d5b31" stroke-width="2" opacity=".3"/>
+    </g>
+    <g transform="rotate(-5 800 620)">
+      <path d="M390 514 L1080 500 L1140 718 L430 746 Z" fill="url(#paper)"/>
+      <path d="M408 530 L1064 516 L1118 700 L446 726 Z" fill="none" stroke="#5c482d" stroke-width="1.4" opacity=".7"/>
+      <g stroke="#4e3b24" opacity=".55" fill="none" stroke-width="1.1">
+        <path d="M430 566 C590 550 790 560 1040 544"/>
+        <path d="M438 606 C610 590 820 600 1088 582"/>
+        <path d="M444 646 C650 630 860 640 1104 620"/>
+        <path d="M450 684 C650 670 890 678 1098 660"/>
+      </g>
+      <g stroke="#2d2a20" fill="none" stroke-width="1.4" opacity=".75">
+        <path d="M570 700 C620 640 700 610 780 630 C840 646 860 690 930 682 C980 676 1010 644 1050 626"/>
+        <path d="M780 630 C760 596 782 568 812 572 C842 576 842 610 820 628"/>
+        <path d="M690 676 C660 650 668 616 698 610 C730 604 746 632 726 660"/>
+      </g>
+      <g stroke="#c19a5a" fill="none" opacity=".7">
+        <circle cx="614" cy="624" r="34"/>
+        <path d="M614 580 L622 610 L650 624 L622 638 L614 668 L606 638 L578 624 L606 610 Z" fill="#b18b4f" fill-opacity=".2"/>
+        <path d="M614 596 V652 M586 624 H642"/>
+        <path d="M812 566 C782 546 748 540 716 552" stroke-width="1.4"/>
+        <path d="M812 566 C820 540 850 528 878 536" stroke-width="1.4"/>
+      </g>
+    </g>
+    <g>
+      <path d="M246 500 L305 500 L312 514 L238 514 Z" fill="#b18b4f" opacity=".6"/>
+      <path d="M258 430 L290 430 L294 500 L254 500 Z" fill="#2c2618"/>
+      <path d="M266 430 C266 404 282 390 296 398 C288 410 292 416 300 420 L300 438 L266 438 Z" fill="#1a1710"/>
+      <ellipse cx="278" cy="397" rx="18" ry="26" fill="#e4b46f" opacity=".85"/>
+      <ellipse cx="278" cy="402" rx="52" ry="38" fill="#e4b46f" opacity=".18" filter="url(#blur10)"/>
+      <path d="M250 500 L300 500" stroke="#e1b471" stroke-width="2" opacity=".7"/>
+    </g>
+    <g opacity=".55" filter="url(#rough)">
+      <path d="M1180 80 L1510 80 L1510 470 L1180 470 Z" fill="#14130f" stroke="#5e4a2e" stroke-width="1.5"/>
+      <path d="M1200 104 L1490 104 L1490 446 L1200 446 Z" fill="none" stroke="#725936" opacity=".6"/>
+      <path d="M1240 136 C1320 184 1310 288 1400 344 C1442 370 1458 406 1440 430" fill="none" stroke="#8e7d5b" stroke-width="2" opacity=".6"/>
+      <path d="M1434 332 C1458 322 1472 334 1466 352 C1458 368 1434 366 1422 352" fill="none" stroke="#b18b4f"/>
+    </g>
+    <path d="M0 635 C200 624 330 640 470 630" fill="none" stroke="#b18b4f" stroke-width="1" opacity=".16"/>
+    <g stroke="#bdb99b" opacity=".1">
+      <path d="M920 20 L900 900"/><path d="M1100 0 L1080 900"/><path d="M1500 50 L1460 900"/>
+    </g>
+    </svg>
+      <h2 class="sr-only">第 2 幕</h2>
+      <article class="copy layout-chart anchor-right-mid">
+  <div class="copy-inner">
+    <p>没有人见过海怪。在近代以来的银幕上，它们被描绘为体型巨大，鲸鱼般巨大的怪物，拥有强劲的力量和尖利的牙齿。</p>
+    <p>但这明显是一派胡言。它的笨重做不到让用风帆驱动的船队覆没，尖牙也咬不动厚实的船板。除了更多的爆米花外一无是处。</p>
+    <p>古代的学者也许更接近真相，他们在老水手的瞎眼和聋耳中搜刮海面以下的暗影。他们靠着少得可怜的证物与多的是的胡话，把脑海中的怪诞形象篆刻在手工地图的四角。</p>
+    <p>但还是——还是太远。</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 03 / close / overhead / top light / testimony / left-narrow / cold gray -->
+  <section class="act act--testimony" data-act="3" aria-label="第 3 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect width="1600" height="900" fill="#13120e"/>
+    <g filter="url(#rough)">
+      <path d="M0 0 H1600 V900 H0 Z" fill="#2a2419"/>
+      <path d="M0 90 C300 60 500 120 760 84 C1000 52 1240 100 1600 64 L1600 900 L0 900 Z" fill="#3b3020"/>
+      <path d="M0 140 C250 110 490 160 720 126 C1000 84 1230 142 1600 104" fill="none" stroke="#16130e" stroke-width="2" opacity=".65"/>
+      <path d="M0 250 H1600 M0 360 H1600 M0 470 H1600 M0 580 H1600 M0 690 H1600 M0 800 H1600" stroke="#17130e" stroke-width="2" opacity=".28"/>
+    </g>
+    <ellipse cx="1080" cy="120" rx="430" ry="260" fill="#d8bb7c" opacity=".12" filter="url(#blur10)"/>
+    <g transform="rotate(-3 1030 470)">
+      <path d="M620 90 L1460 70 L1550 780 L700 812 Z" fill="url(#paper)"/>
+      <path d="M650 120 L1430 102 L1516 752 L732 782 Z" fill="none" stroke="#735d3c" stroke-width="1.6" opacity=".8"/>
+      <g stroke="#6f5c3f" fill="none" opacity=".42" stroke-width="1">
+        <path d="M690 170 H1460 M690 230 H1490 M690 290 H1470 M690 350 H1500 M690 410 H1480 M690 470 H1500 M690 530 H1470 M690 590 H1490 M690 650 H1460 M690 710 H1440"/>
+        <path d="M730 130 V760 M820 120 V770 M910 114 V775 M1000 110 V772 M1090 106 V768 M1180 102 V762 M1270 98 V756 M1360 94 V750"/>
+      </g>
+      <g fill="none" stroke="#4c4636" stroke-width="2" opacity=".75">
+        <path d="M760 660 C810 600 820 525 900 500 C960 480 1000 520 1050 486 C1100 450 1170 420 1250 448 C1310 470 1340 520 1390 512"/>
+        <path d="M780 706 C870 674 930 700 1010 670 C1080 644 1160 660 1240 626 C1300 600 1360 610 1410 592"/>
+        <path d="M846 200 C870 250 860 300 890 340 C910 370 900 420 880 460"/>
+        <path d="M1120 180 C1150 240 1140 300 1190 340 C1220 364 1226 420 1200 470"/>
+      </g>
+      <g stroke="#6d3d24" fill="none" opacity=".6">
+        <path d="M760 620 C840 560 900 570 980 530 C1040 500 1100 510 1160 474"/>
+        <path d="M920 400 C960 380 1000 390 1016 420 C1032 452 1004 480 970 476 C940 472 922 446 930 424" stroke-width="2"/>
+        <path d="M960 412 L968 444 M948 432 L982 424"/>
+      </g>
+      <g opacity=".75">
+        <path d="M1250 650 L1430 640 L1438 670 L1258 684 Z" fill="#b18b4f" opacity=".5"/>
+        <path d="M1306 566 L1340 564 L1344 650 L1310 652 Z" fill="#2b2418"/>
+        <path d="M1308 564 L1318 544 L1332 548 L1340 564 Z" fill="#b18b4f"/>
+        <circle cx="1324" cy="620" r="10" fill="none" stroke="#e2c07c"/>
+        <path d="M1324 610 V632 M1314 620 H1334" stroke="#e2c07c" stroke-width="1.4"/>
+      </g>
+      <g fill="#6b5a3e" opacity=".6" font-family="Georgia, serif" font-size="15">
+        <text x="892" y="332">48</text><text x="964" y="296">112</text><text x="1046" y="352">236</text>
+        <text x="1128" y="300">87</text><text x="1196" y="392">154</text><text x="1268" y="318">62</text>
+        <text x="940" y="452">206</text><text x="1064" y="470">318</text><text x="1180" y="486">174</text>
+        <text x="856" y="524">32</text><text x="1010" y="562">95</text><text x="1230" y="570">141</text>
+      </g>
+      <g fill="#4c4636" opacity=".45">
+        <circle cx="880" cy="356" r="1.6"/><circle cx="948" cy="322" r="1.6"/><circle cx="1032" cy="372" r="1.6"/>
+        <circle cx="1112" cy="330" r="1.6"/><circle cx="1204" cy="416" r="1.6"/><circle cx="948" cy="486" r="1.6"/>
+        <circle cx="1088" cy="516" r="1.6"/><circle cx="1216" cy="540" r="1.6"/>
+      </g>
+      <g stroke="#5a4c36" stroke-width="1" opacity=".3" fill="none">
+        <path d="M900 356 C960 340 1010 356 1060 348"/><path d="M920 376 C976 360 1024 376 1072 368"/>
+        <path d="M960 400 C1010 388 1056 400 1100 392"/>
+      </g>
+      <rect x="380" y="-120" width="820" height="1160" fill="url(#chart-shade)" transform="rotate(3 860 440)"/>
+    </g>
+    <g>
+      <path d="M610 750 C720 716 770 780 850 820 C760 850 670 842 590 812 C590 790 598 768 610 750 Z" fill="#050908"/>
+      <path d="M680 744 C710 720 742 730 760 752 C780 776 770 806 740 816 C710 826 680 810 668 786 C660 766 666 754 680 744 Z" fill="#050908"/>
+      <path d="M630 788 C700 770 760 792 800 814" fill="none" stroke="#b7935c" stroke-width="1.2" opacity=".28"/>
+      <path d="M700 742 L680 700 L712 692 L726 734" fill="#060a09"/>
+    </g>
+    <g opacity=".9">
+      <path d="M180 636 C250 620 292 640 302 680 L280 728 L190 710 Z" fill="#0b0b08"/>
+      <path d="M184 664 C220 654 254 666 270 688" fill="none" stroke="#b18b4f" stroke-width="1" opacity=".3"/>
+      <path d="M210 620 L216 586" stroke="#0a0a07" stroke-width="4"/>
+      <path d="M222 594 C250 572 280 578 294 600 C280 620 246 626 220 612 Z" fill="#0b0b08"/>
+    </g>
+    <path d="M0 860 C300 840 600 860 900 844 C1200 828 1450 846 1600 834" fill="none" stroke="#b18b4f" opacity=".12"/>
+    </svg>
+      <h2 class="sr-only">第 3 幕</h2>
+      <article class="copy layout-testimony anchor-left-narrow">
+  <div class="copy-inner">
+    <p>“我们走得太远了！”谢莜萱用手指着航海图，对高小天说：“偏离了100海里。”</p>
+    <p>“什么？”高小天伸头看着地图，目不转睛，虚汗从额头上泌出，“这这这这是怎么一回事啊？”</p>
+    <p>“我用六分仪测的。”谢莜萱指着太阳说，“偏角说明纬度已经高于60°了。”她小声补充说。</p>
+    <p>领航员的话不容置疑，于是，高小天把住舵轮，沉入了深思。“那我们现在在哪？”他最后问道，像是打出一个沉积缓慢的嗝。</p>
+    <p>“我以为你知道呢。”她也加入了静固的气氛，“那个……你不是船长吗？”</p>
+    <p>“你不是领航员吗？”高小天不假思索地问道，“我看方向大概，就随便开啦！”</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 04 / mid / eye / lantern side-back / testimony / right-low / deep blue -->
+  <section class="act act--testimony act--long" data-act="4" aria-label="第 4 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect width="1600" height="900" fill="url(#sky-night)"/>
+    <ellipse cx="1240" cy="228" rx="310" ry="260" fill="url(#moon-glow)" opacity=".7"/>
+    <circle cx="1248" cy="220" r="82" fill="#c4c5aa" opacity=".16"/>
+    <g filter="url(#rough2)" opacity=".75">
+      <path d="M-40 260 C180 180 380 260 580 206 C800 148 980 220 1220 180 C1400 150 1520 190 1640 160 L1640 300 C1400 280 1180 330 940 290 C700 250 470 320 240 280 C100 260 20 280 -40 290 Z" fill="#0a191b" opacity=".8"/>
+      <path d="M-40 380 C200 330 400 380 620 344 C860 304 1080 360 1320 326 C1440 308 1540 330 1640 316 L1640 390 C1420 380 1200 420 960 390 C720 360 500 420 260 390 C120 374 20 390 -40 396 Z" fill="#071316" opacity=".9"/>
+    </g>
+    <path d="M0 640 C280 626 520 648 780 632 C1040 616 1290 642 1600 624 L1600 900 L0 900 Z" fill="url(#sea-black)"/>
+    <path d="M0 652 C260 638 500 660 760 646 C1020 630 1280 656 1600 638" fill="none" stroke="#b5c2b1" stroke-width="1.6" opacity=".15"/>
+    <g stroke="#73837a" fill="none" opacity=".26">
+      <path d="M0 716 C240 700 470 726 720 708 C980 688 1260 722 1600 700"/>
+      <path d="M0 784 C260 762 520 794 800 770 C1100 744 1360 780 1600 760"/>
+    </g>
+    <path d="M0 780 C180 750 360 770 520 800 L520 900 L0 900 Z" fill="#030708"/>
+    <path d="M0 792 C160 764 310 780 450 806" fill="none" stroke="#b28a4f" stroke-width="1.3" opacity=".17"/>
+    <g opacity=".95">
+      <path d="M122 0 V680 M122 200 L640 150 M480 0 V600" stroke="#050b0b" stroke-width="6"/>
+      <path d="M480 0 V600" stroke="#5f5a45" stroke-width="1.2" opacity=".4"/>
+      <path d="M148 242 L596 190 M160 330 L590 280" stroke="#050b0b" stroke-width="1.5" opacity=".8"/>
+      <path d="M520 58 C640 40 760 70 790 160 C820 244 780 328 710 390 C650 442 570 470 500 472 C492 388 496 280 502 200 C506 154 512 96 520 58 Z" fill="#0a1717" opacity=".85" filter="url(#rough)"/>
+    </g>
+    <g>
+      <use href="#fig-jiang" x="700" y="226" width="186" height="470"/>
+      <path d="M742 300 C770 274 810 280 830 310" fill="none" stroke="#b18b4f" opacity=".18"/>
+      <path d="M760 500 L860 496" stroke="#b18b4f" stroke-width="2" opacity=".35"/>
+    </g>
+    <g>
+      <ellipse cx="382" cy="634" rx="150" ry="80" fill="#e0a25c" opacity=".12" filter="url(#blur14)"/>
+      <path d="M350 612 L414 612 L404 676 L360 676 Z" fill="#1a160f" stroke="#b18b4f" stroke-width="1.2"/>
+      <path d="M360 620 L404 620 L398 670 L366 670 Z" fill="#dfa664" opacity=".55"/>
+      <path d="M382 620 C374 638 374 654 382 668 C390 652 390 636 382 620 Z" fill="#f1d09b" opacity=".8"/>
+      <path d="M332 676 C360 664 410 664 436 678" fill="#0a0e0c"/>
+      <path d="M382 586 C360 560 340 560 320 576" fill="none" stroke="#0a100e" stroke-width="2" opacity=".8"/>
+    </g>
+    <g stroke="#91a39b" stroke-width="1" opacity=".22" fill="none">
+      <path d="M80 0 L-20 900"/><path d="M280 0 L190 900"/><path d="M560 0 L470 900"/>
+      <path d="M980 0 L880 900"/><path d="M1340 0 L1240 900"/><path d="M1560 0 L1450 900"/>
+    </g>
+    <path d="M0 812 C200 800 360 816 540 806" fill="none" stroke="#b18b4f" stroke-width="1" opacity=".15"/>
+    </svg>
+      <h2 class="sr-only">第 4 幕</h2>
+      <article class="copy layout-testimony anchor-right-low">
+  <div class="copy-inner">
+    <p>“如果撞上暗礁，我们都会死。”江彦辰不知从什么地方冒了出来，伸出一根手指，低着头；只让眼睛把智慧的目光扭转成不祥，“马上就会去世。”</p>
+    <p>“你怎么还活着？”高小天假装惊讶地问。</p>
+    <p>“好……我这个平时非常爱护个人健康啊。”江彦辰说，“还有，猜猜为什么礁石这么硬。”“你滚一边去吧！”高小天一把推开江彦辰，扶住了舵轮，“没关系，正好看看这里有什么。”</p>
+    <p>他又想起了那个传说，那个在船长和船长之间，渔民和商人之间口耳相传的流言：有时偏离了航道的船只，会误入一片神秘的海域，而误入海域的船只，将受到海怪的凝视。</p>
+    <p>在壁炉橙红的火焰旁，在热浪熊熊，泛着酒香和掺着烟味的休息室里，空气静谧又祥和。</p>
+    <p>在那里，这个传言如同儿戏，是谬论，在更加诡怪和离奇的海上惊悚故事里，是拿不出手的谈资。但在这里，四周海浪摇曳的大洋，所有恐惧都会被放大，所有禁忌都有其原由。</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 05 / close / circle / single cold light / epigraph / center-right / cyan gray -->
+  <section class="act act--epigraph" data-act="5" aria-label="第 5 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect width="1600" height="900" fill="#080d0d"/>
+    <path d="M0 690 C300 656 650 672 980 650 C1260 632 1440 646 1600 634 L1600 900 L0 900 Z" fill="#13120e"/>
+    <path d="M0 690 C300 656 650 672 980 650" fill="none" stroke="#695433" stroke-width="1.4" opacity=".3"/>
+    <defs>
+      <clipPath id="lensClip"><circle cx="520" cy="410" r="272"/></clipPath>
+      <radialGradient id="lensHaze" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#9ea99a" stop-opacity=".38"/><stop offset=".7" stop-color="#31433e" stop-opacity=".25"/><stop offset="1" stop-color="#0a1213" stop-opacity=".1"/></radialGradient>
+    </defs>
+    <circle cx="520" cy="410" r="290" fill="#0c1515"/>
+    <g clip-path="url(#lensClip)">
+      <rect x="230" y="120" width="600" height="580" fill="#0c1819"/>
+      <path d="M230 360 C330 340 430 356 530 346 C620 338 720 356 830 344 L830 520 C720 508 620 530 520 518 C420 508 320 526 230 518 Z" fill="#263c3b"/>
+      <path d="M230 480 C350 462 450 480 580 468 C690 458 760 472 830 462 L830 580 L230 580 Z" fill="#132b2c"/>
+      <path d="M230 520 C360 506 470 526 600 512 C700 502 770 516 830 508" fill="none" stroke="#b7bca4" opacity=".22"/>
+      <path d="M420 470 C470 430 520 420 576 438 C624 454 640 496 610 530 C570 556 500 550 462 522 C438 504 420 488 420 470 Z" fill="#050b0b" opacity=".9"/>
+      <path d="M550 460 C566 452 580 460 580 470 C580 482 564 488 552 480 C544 474 544 466 550 460 Z" fill="#b18b4f" opacity=".35"/>
+      <path d="M385 418 C386 330 456 270 560 264 C650 258 720 300 748 366" fill="none" stroke="#7f8b7a" stroke-width="2" opacity=".3"/>
+      <path d="M270 290 C320 260 390 270 420 300" fill="none" stroke="#d8d1ae" opacity=".14" stroke-width="2"/>
+      <rect x="230" y="120" width="600" height="580" fill="url(#lensHaze)"/>
+      <g stroke="#cdd0b5" opacity=".16">
+        <path d="M300 200 L260 650"/><path d="M760 170 L720 640"/><path d="M600 130 L540 680"/>
+      </g>
+    </g>
+    <circle cx="520" cy="410" r="286" fill="none" stroke="#1b1710" stroke-width="18"/>
+    <circle cx="520" cy="410" r="275" fill="none" stroke="#7f6339" stroke-width="3" opacity=".65"/>
+    <circle cx="520" cy="410" r="296" fill="none" stroke="#3f311c" stroke-width="2"/>
+    <g fill="#b18b4f" opacity=".55">
+      <circle cx="331" cy="650" r="6"/><circle cx="713" cy="634" r="6"/><circle cx="340" cy="176" r="5"/><circle cx="708" cy="172" r="5"/>
+      <path d="M520 116 L531 138 L520 160 L509 138 Z" fill="#b18b4f" opacity=".4"/>
+    </g>
+    <g fill="#030706">
+      <path d="M140 900 C240 790 360 756 428 804 C470 834 480 872 470 900 Z"/>
+      <path d="M380 850 C410 810 454 790 492 806 C520 820 530 858 520 900 Z"/>
+      <path d="M430 790 C470 750 520 754 548 788 C570 816 558 856 530 870 C498 886 458 862 444 830 C436 812 430 800 430 790 Z"/>
+    </g>
+    <path d="M0 760 C240 742 380 762 560 750" fill="none" stroke="#b18b4f" stroke-width="1" opacity=".15"/>
+    <g opacity=".4">
+      <path d="M1100 690 C1170 660 1240 670 1300 700 L1280 900 L1130 900 Z" fill="#080c0b"/>
+      <path d="M1112 690 C1180 668 1238 676 1288 702" fill="none" stroke="#7d633f" opacity=".35"/>
+    </g>
+    </svg>
+      <h2 class="sr-only">第 5 幕</h2>
+      <article class="copy layout-epigraph anchor-center-right">
+  <div class="copy-inner">
+    <p>已是深夜，高小天手持单筒望远镜，目光向远处的苍茫瞭望。深蓝和灰的海面，无光的空气。朦胧绰约的混沌阴影是远处，阴影间的空隙是比远更远的地方。想到这里，高小天突然感觉自己太过诗意，仿佛居士一样拿腔做调。他不由得感慨，空旷壮大的海洋能让人成为诗人。</p>
+    <p>由不得他感慨，望远镜捕捉到了目标。</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 06 / mid / eye (two beats) / lamp side / chart / right-mid / warm brown -->
+  <section class="act act--chart act--long act--two is-beat1" data-act="6" aria-label="第 6 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect width="1600" height="900" fill="#1b1711"/>
+    <path d="M0 0 H1600 V690 H0 Z" fill="url(#wall-warm)"/>
+    <g opacity=".8">
+      <path d="M0 0 V690 M246 0 V690 M520 0 V690 M1240 0 V690 M1510 0 V690" stroke="#0d0c08" stroke-width="2" opacity=".5"/>
+      <path d="M0 520 H1600" stroke="#0b0a07" stroke-width="2" opacity=".45"/>
+      <path d="M0 680 H1600 V900 H0 Z" fill="#0d0e0a"/>
+      <path d="M0 700 C260 684 480 710 740 694 C1000 678 1260 706 1600 688" fill="none" stroke="#655032" opacity=".2"/>
+    </g>
+    <g>
+      <path d="M70 84 H430 V650 H70 Z" fill="#0b0b08"/>
+      <path d="M110 112 H394 V636 H110 Z" fill="#231c12"/>
+      <path d="M110 112 H394 V636 H110 Z" fill="url(#door-glow)" opacity=".9"/>
+      <path d="M248 112 V636" stroke="#5b4324" stroke-width="2" opacity=".5"/>
+      <path d="M282 390 C294 386 300 396 296 408 C292 418 280 418 276 408 C274 400 276 394 282 390 Z" fill="#b18b4f" opacity=".65"/>
+      <path d="M64 80 H436 V650 H64 Z" fill="none" stroke="#16120c" stroke-width="10"/>
+      <path d="M96 100 L430 650" fill="none" stroke="#e0a25c" opacity=".06" stroke-width="80"/>
+    </g>
+    <ellipse cx="286" cy="360" rx="290" ry="330" fill="#e0a25c" opacity=".11" filter="url(#blur14)"/>
+    <ellipse cx="844" cy="142" rx="180" ry="120" fill="#d19b5b" opacity=".12" filter="url(#blur10)"/>
+    <g>
+      <path d="M250 606 C460 586 760 594 980 578 L1010 720 L228 744 Z" fill="#3e2d1b"/>
+      <path d="M262 614 C470 596 760 602 970 588 L994 706 L240 728 Z" fill="#594126" opacity=".4"/>
+      <path d="M420 606 L860 592 L900 690 L456 708 Z" fill="url(#paper)" opacity=".75"/>
+      <g stroke="#6d5735" fill="none" opacity=".55">
+        <path d="M458 630 C570 620 700 626 840 616"/>
+        <path d="M464 658 C590 646 720 654 860 642"/>
+        <path d="M470 686 C590 674 720 680 870 668"/>
+      </g>
+      <path d="M770 596 C790 590 810 596 814 610 C818 626 802 636 786 630 C772 624 764 606 770 596 Z" fill="#b18b4f" opacity=".6"/>
+    </g>
+    <g>
+      <use href="#fig-gao" x="196" y="336" width="156" height="356"/>
+      <path d="M250 470 C282 460 312 470 330 494" fill="none" stroke="#b18b4f" opacity=".18"/>
+      <use href="#fig-xie" x="832" y="276" width="174" height="430"/>
+      <path d="M866 388 C900 370 930 380 946 410" fill="none" stroke="#b18b4f" opacity=".16"/>
+    </g>
+    <g>
+      <path d="M226 760 C260 744 310 748 330 770 L322 810 L210 802 Z" fill="#080b08"/>
+      <path d="M228 760 C250 748 280 748 304 760" fill="none" stroke="#b18b4f" opacity=".25"/>
+    </g>
+    <path d="M0 840 C300 820 640 844 980 824 C1250 808 1440 828 1600 814" fill="none" stroke="#b18b4f" opacity=".12"/>
+    </svg>
+      <h2 class="sr-only">第 6 幕</h2>
+      <article class="copy layout-chart anchor-right-mid beat beat--1 is-current">
+  <div class="copy-inner">
+    <p>住在中层甲板的谢莜萱，作为领航员和制图员的生活平淡。船上人不多，更鲜有人叨扰来访。她坐在一桌布满经纬线的图纸后面，指尖轻触着那些褪色的墨迹。</p>
+    <p>“咚咚咚！”门板发出急促的响声，在寂静的房间里格外清晰。谢莜萱忙打开门，高小天脸色煞白，嘴唇还在微微抖动。他二话不说，直接奔向桌子，掀开杂物，将海图移到桌子正中间。“怎么了？”谢莜萱赶过来询问，身体前倾：“有什么状况吗？”</p>
+    <p>高小天板着的脸只有眼神活着。快速的扫视，让他脸上的汗越来越多。</p>
+    <p>“这……这里有陆地吗？”高小天指着海图上的一片空白，问道。</p>
+    <p>“当然有了。”谢莜萱看了一眼所指的地方，又看了一眼高小天，迟疑着答道，“那是日本。”</p>
+    <p>“什么？！什什什什么？”高小天惊叫起来，“日本？在这儿？”</p>
+  </div>
+</article>
+    <article class="copy layout-chart anchor-right-mid beat beat--2">
+  <div class="copy-inner">
+    <p>“可是你指的那里就是日本。”谢莜萱无辜地答道，“就在东京附近。”</p>
+    <p>高小天一下子被知识冲昏了头脑，很是反应了一阵子：“那……那我们在哪里？”</p>
+    <p>“这儿。”她指着一个完全相反的位置，“这片海域不在海图上，所以我只能推测出大概的航线。它附近不会有任何大陆。你看，离得最近的是这儿，白令海峡。”</p>
+    <p>“有多远？”</p>
+    <p>谢莜萱用手量了一下：“全速前进的话，大概五天可以到达。”</p>
+    <p>高小天仰视空气的做法让她愈发奇怪：“你究竟怎么了？”</p>
+    <p>“我在甲板上，用望远镜看，然后……”他咽了一口口水，“我看到了陆地。”</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 07 / wide / low / cold top light / log / left-low / ochre+black -->
+  <section class="act act--log act--long" data-act="7" aria-label="第 7 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect width="1600" height="900" fill="url(#sky-storm)"/>
+    <ellipse cx="1010" cy="286" rx="470" ry="320" fill="#a9b3a4" opacity=".06" filter="url(#blur14)"/>
+    <g filter="url(#rough2)" opacity=".92">
+      <path d="M-40 84 C150 50 320 96 520 68 C720 40 900 86 1100 58 C1290 34 1450 62 1640 36 L1640 186 C1420 170 1240 208 1020 182 C800 156 590 198 380 174 C220 156 80 178 -40 194 Z" fill="#0d1918" opacity=".92"/>
+      <path d="M-40 228 C180 192 380 238 600 208 C820 178 1030 220 1250 192 C1400 174 1530 184 1640 176 L1640 298 C1430 290 1210 322 980 298 C750 274 530 318 300 294 C160 280 40 294 -40 304 Z" fill="#13201e" opacity=".88"/>
+      <path d="M-40 334 C220 314 460 348 700 326 C940 304 1160 338 1400 316 C1490 308 1580 314 1640 310 L1640 408 C1430 404 1200 426 960 406 C720 386 500 420 260 402 C120 392 20 400 -40 406 Z" fill="#1f2d2a" opacity=".74"/>
+      <path d="M-40 430 C260 414 520 438 800 422 C1080 406 1340 430 1640 414 L1640 470 C1360 486 1100 462 820 478 C540 494 260 470 -40 486 Z" fill="#0e1918" opacity=".82"/>
+    </g>
+    <path d="M0 462 C280 450 520 470 800 458 C1080 446 1340 466 1600 454 L1600 528 L0 528 Z" fill="#192624"/>
+    <path d="M0 478 C260 466 540 486 820 474 C1100 462 1360 480 1600 470" fill="none" stroke="#9fb0a3" stroke-width="1.3" opacity=".15"/>
+    <path d="M0 900 L0 594 L118 560 L214 594 L316 556 L430 606 L560 576 L690 632 L830 614 L980 654 L1140 630 L1300 678 L1460 656 L1600 692 L1600 900 Z" fill="#070c0b"/>
+    <path d="M0 618 C200 596 380 622 560 602 C740 582 900 608 1080 588 C1240 570 1420 592 1600 574" fill="none" stroke="#6d644c" stroke-width="1.1" opacity=".24"/>
+    <g fill="#040908">
+      <path d="M56 900 L96 660 L152 900 Z"/><path d="M184 900 L226 626 L288 900 Z"/>
+      <path d="M378 900 L420 676 L472 900 Z"/><path d="M556 900 L598 706 L652 900 Z"/>
+      <path d="M1176 900 L1224 656 L1290 900 Z"/><path d="M1398 900 L1440 716 L1500 900 Z"/>
+    </g>
+    <g stroke="#7d7358" opacity=".2" fill="none" stroke-width="1">
+      <path d="M96 680 L152 900 M226 650 L288 900 M420 696 L472 900 M598 726 L652 900"/>
+      <path d="M30 716 C120 702 200 716 284 704 M1180 700 C1260 686 1350 700 1440 688"/>
+    </g>
+    <ellipse cx="1010" cy="690" rx="420" ry="46" fill="#020505" opacity=".55" filter="url(#blur14)"/>
+    <g transform="translate(742 520) rotate(-8)">
+      <path d="M-26 18 C110 -2 300 -4 470 18 L508 92 C340 128 120 126 -18 96 Z" fill="#040807"/>
+      <path d="M-26 18 C110 -2 300 -4 470 18" fill="none" stroke="#8a7d5c" stroke-width="1.4" opacity=".4"/>
+      <path d="M-14 52 C130 34 320 32 486 52" fill="none" stroke="#b18b4f" stroke-width="1" opacity=".18"/>
+      <path d="M470 18 L520 -6 L528 40 L500 66 Z" fill="#040807"/>
+      <path d="M-30 20 L-96 -22 L-102 22 L-42 54 Z" fill="#040807"/>
+      <path d="M-96 -22 L-150 -46 L-156 -28 L-102 8 Z" fill="#040807"/>
+      <path d="M96 12 L74 -300 L98 -306 L122 10 Z" fill="#050908"/>
+      <path d="M330 14 L352 -250 L374 -244 L358 16 Z" fill="#050908"/>
+      <path d="M-40 -58 L250 -74" stroke="#050908" stroke-width="8"/>
+      <path d="M270 -34 L520 -48" stroke="#050908" stroke-width="7"/>
+      <path d="M-10 -62 C70 -80 180 -80 252 -70 L248 -34 C180 -20 70 -20 -2 -32 Z" fill="#0d1513"/>
+      <path d="M-8 -66 C70 -82 180 -82 254 -72" fill="none" stroke="#b8a47b" stroke-width="1.2" opacity=".25"/>
+      <path d="M296 -38 C380 -54 470 -56 526 -46 L522 -14 C460 0 372 -2 300 -12 Z" fill="#0e1614"/>
+      <path d="M298 -42 C380 -58 470 -60 528 -50" fill="none" stroke="#b8a47b" stroke-width="1.1" opacity=".22"/>
+      <path d="M176 -66 C182 -96 204 -116 232 -120 C226 -98 220 -80 214 -60 Z" fill="#131c19" opacity=".85"/>
+      <path d="M404 -44 C404 -74 420 -98 446 -108 C442 -84 438 -62 434 -42 Z" fill="#131c19" opacity=".8"/>
+      <g stroke="#8b8670" opacity=".4" fill="none" stroke-width="1">
+        <path d="M84 -296 L-26 96 M92 -296 L250 -66 M346 -246 L270 -36 M358 -246 L520 -14"/>
+        <path d="M112 -300 L-96 -20 M366 -252 L-102 20"/>
+      </g>
+      <path d="M-20 30 C100 14 240 14 340 30" fill="none" stroke="#0a100e" stroke-width="3"/>
+      <g stroke="#0a100e" stroke-width="3">
+        <path d="M10 24 V52 M70 16 V44 M140 12 V40 M210 12 V40 M280 18 V46 M350 26 V54"/>
+      </g>
+      <g fill="#020606">
+        <path d="M36 14 C40 -4 50 -12 60 -8 C68 -4 70 6 66 16 Z"/>
+        <path d="M112 10 C116 -8 126 -16 136 -12 C144 -8 146 2 142 12 Z"/>
+        <path d="M242 10 C246 -8 256 -16 266 -12 C274 -8 276 2 272 12 Z"/>
+        <path d="M318 16 C322 -2 332 -10 342 -6 C350 -2 352 8 348 18 Z"/>
+      </g>
+    </g>
+    <g opacity=".96">
+      <use href="#fig-gao" x="694" y="700" width="66" height="158"/>
+      <use href="#fig-xie" x="762" y="712" width="56" height="146"/>
+      <path d="M830 858 C826 826 836 800 854 794 C872 788 886 802 888 822 L890 858 Z" fill="#050a09"/>
+      <path d="M858 800 C866 782 878 776 887 786 C894 794 890 806 881 812" fill="none" stroke="#050a09" stroke-width="5"/>
+      <path d="M910 862 C908 838 916 818 928 814 C940 810 950 820 952 838 L952 862 Z" fill="#060b0a"/>
+    </g>
+    <g stroke="#9aa89b" opacity=".14" fill="none" stroke-width="1">
+      <path d="M240 300 L196 760"/><path d="M520 280 L470 800"/><path d="M1230 300 L1180 820"/><path d="M1450 320 L1400 840"/>
+    </g>
+    <g fill="none" stroke="#050a09" stroke-width="2" opacity=".75">
+      <path d="M1180 176 C1196 164 1214 166 1224 178 C1214 186 1198 186 1188 180 Z"/>
+      <path d="M1290 146 C1304 136 1320 138 1330 148"/>
+    </g>
+    <path d="M-20 872 C140 832 280 852 420 872" fill="none" stroke="#b18b4f" opacity=".14" stroke-width="1.2"/>
+    </svg>
+      <h2 class="sr-only">第 7 幕</h2>
+      <article class="copy layout-log anchor-left-low">
+  <div class="copy-inner">
+    <p>船已靠岸，船上的所有人排成一列站在甲板上，目瞪口呆。冷峻的岩石包围了视野，说是靠岸，其实是船只冲上了陆地。回头望去，海在船不远处玩弄浪花。</p>
+    <p>没有人见过这种景象，即使是最荒凉的火山地也不会有更多的，死气沉沉，黑硬顽固的石块，甚至连一株植物也没有。</p>
+    <p>“神抛弃了我们……”江彦辰双手斜伸向惨灰的天，眼泪在眼珠上跳动，干涸。他扭曲了鼻子，连嘴巴都弯曲成苦痛的模样“这不是人间，这是地狱，地狱啊！”</p>
+    <p>他喊道，跪下来开始祈祷，右手连续在胸前画了三个方块。</p>
+    <p>高小天沉默地坐着，仿佛这样当作什么也没发生，船就会自动回到海里去一样。这艘可怜的木船，如今只能孤零零静止在这坚实的固体上。</p>
+    <p>谢莜萱拿着海图，飞快地用笔在计算，然而很不顺利，每隔一会儿就要划掉许多数字。“不会吧！”她说，“我算了三遍了，这里根本不可能，有可能有陆地……”她望向周围的景色，明显地感到迷惑，接着又低头算了起来。</p>
+    <p>高小天的眼神显露出绝望的神色。他发号施令，纠集起喧闹暴躁的水手，让他们回下层甲板待命。看来任务是绝无可能完成了，他想。</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 08 / mid / eye / flat light / fragment / right-top / gray brown -->
+  <section class="act act--fragment" data-act="8" aria-label="第 8 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+<defs>
+  <linearGradient id="a8-ground" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#1d2521" stop-opacity="0"/><stop offset=".3" stop-color="#232c26" stop-opacity=".75"/><stop offset=".6" stop-color="#2b332c" stop-opacity=".95"/>
+    <stop offset="1" stop-color="#0c1211" stop-opacity="1"/>
+  </linearGradient>
+  <radialGradient id="a8-pool" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#7d7f62" stop-opacity=".22"/><stop offset="1" stop-color="#7d7f62" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="a8-blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="38"/></filter>
+</defs>
+<rect width="1600" height="900" fill="#050807"/>
+<ellipse cx="520" cy="120" rx="620" ry="260" fill="#5d6a63" opacity=".07" filter="url(#a8-blur)"/>
+<ellipse cx="1180" cy="60" rx="520" ry="200" fill="#48544f" opacity=".06" filter="url(#a8-blur)"/>
+<rect x="0" y="418" width="1600" height="482" fill="url(#a8-ground)"/>
+<ellipse cx="900" cy="640" rx="520" ry="120" fill="url(#a8-pool)"/>
+<path d="M0 520 C240 508 480 522 720 514 C980 506 1280 520 1600 510" fill="none" stroke="#7f8874" stroke-width="1" opacity=".16"/>
+<g fill="none" stroke="#0b1211" stroke-width="1" opacity=".5">
+  <path d="M0 596 C280 584 520 600 780 590 C1060 580 1320 594 1600 586"/>
+  <path d="M0 660 C300 646 560 664 840 652 C1100 642 1360 656 1600 648"/>
+</g>
+<g>
+  <path d="M980 900 C940 780 930 690 1000 630 C1080 560 1210 540 1330 556 C1450 572 1540 620 1600 690 L1600 900 Z" fill="#080d0c"/>
+  <path d="M1000 630 C1080 560 1210 540 1330 556 C1450 572 1540 620 1600 690" fill="none" stroke="#8b8763" stroke-width="2" opacity=".18"/>
+  <path d="M1012 646 C1090 582 1214 562 1326 578 C1436 594 1520 636 1584 700" fill="none" stroke="#3f4a42" stroke-width="1.2" opacity=".22"/>
+  <g fill="none" stroke="#050a09" stroke-width="7">
+    <path d="M1156 556 L1152 214"/><path d="M1348 570 L1366 262"/>
+  </g>
+  <g fill="none" stroke="#6c6f56" stroke-width="1.1" opacity=".18">
+    <path d="M1152 306 L1366 350"/><path d="M1152 214 L1366 262"/><path d="M1152 214 L1010 640"/>
+  </g>
+  <path d="M1152 380 C1210 372 1290 372 1352 384 L1352 470 C1290 458 1210 458 1152 470 Z" fill="#101715" opacity=".55"/>
+  <path d="M1150 214 L1170 200 L1174 214 Z" fill="#0b100f"/>
+  <path d="M1366 262 L1388 248 L1392 264 Z" fill="#0b100f"/>
+  <ellipse cx="1452" cy="596" rx="86" ry="26" fill="#d9a45f" opacity=".1" filter="url(#a8-blur)"/>
+  <path d="M1446 574 L1460 574 L1458 590 L1448 590 Z" fill="#0a0f0d"/>
+  <path d="M1449 578 L1457 578 L1456 588 L1450 588 Z" fill="#f0c98b" opacity=".55"/>
+  <path d="M1449 590 L1457 590" stroke="#080d0c" stroke-width="1.4"/>
+</g>
+<g fill="#060b0a">
+  <path d="M118 900 L126 806 L150 806 L156 900 Z"/><path d="M188 900 L196 818 L216 818 L222 900 Z"/>
+  <path d="M262 900 L268 830 L286 830 L292 900 Z"/>
+</g>
+<g fill="none" stroke="#0a100f" stroke-width="2" opacity=".7">
+  <path d="M126 810 L196 822"/><path d="M196 822 L268 834"/>
+</g>
+<g fill="none" stroke="#5c6a5f" stroke-width=".9" opacity=".12">
+  <path d="M1180 690 L1600 668"/><path d="M1180 742 L1600 720"/><path d="M1180 794 L1600 772"/>
+</g>
+    </svg>
+      <h2 class="sr-only">第 8 幕</h2>
+      <article class="copy layout-fragment anchor-right-top">
+  <div class="copy-inner">
+    <p>这艘船的任务，说起来也很简单，就是去阿拉斯加狩猎企鹅。为此，高小天签订了大批的皮毛与肉类转卖合同，还备了远超以往的食物和燃料。可天不遂人愿，阿拉斯加像马桶盖一样，洁白，平坦且荒凉。</p>
+    <p>无路可退的高小天铤而走险，在回程路上抄近路，想穿过白令海峡，去北极猎取北极熊。</p>
+    <p>但在偏离航路之后，怪事就接踵而来。</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 09 / wide / low / backlight / fragment / left-low / cold gray -->
+  <section class="act act--fragment" data-act="9" aria-label="第 9 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect width="1600" height="900" fill="url(#sky-cold)"/>
+    <ellipse cx="790" cy="360" rx="460" ry="260" fill="#d9d3b8" opacity=".08" filter="url(#blur14)"/>
+    <path d="M0 498 C260 484 520 508 790 490 C1060 472 1320 500 1600 482 L1600 900 L0 900 Z" fill="#101b1c"/>
+    <path d="M0 510 C260 496 520 520 790 502 C1060 484 1320 512 1600 494" fill="none" stroke="#b8b9a3" stroke-width="1.5" opacity=".16"/>
+    <g fill="#050a0b">
+      <path d="M0 900 L0 548 L160 514 L330 540 L470 590 L610 620 L760 604 L900 638 L1030 672 L1120 740 L1180 900 Z"/>
+      <path d="M1600 900 L1600 530 L1450 500 L1300 534 L1170 588 L1080 650 L1020 720 L980 900 Z"/>
+    </g>
+    <g fill="none" stroke="#6c6e5e" opacity=".4" stroke-width="1.4">
+      <path d="M40 590 L150 560 L260 580 L380 626 L470 640"/>
+      <path d="M1180 620 L1270 574 L1370 548 L1480 566"/>
+      <path d="M160 900 L210 730 L300 664 L420 640"/>
+      <path d="M1060 900 L1100 760 L1180 690 L1260 650"/>
+    </g>
+    <g filter="url(#rough2)" opacity=".85">
+      <path d="M-40 300 C160 262 340 302 520 272 C700 242 880 288 1060 260 C1220 236 1400 262 1640 238 L1640 374 C1420 356 1240 388 1030 366 C820 344 620 382 400 358 C240 340 80 358 -40 370 Z" fill="#121f1f" opacity=".62"/>
+      <path d="M-40 246 C180 212 380 252 600 224 C820 196 1040 238 1260 212 C1420 192 1540 202 1640 194 L1640 266 C1440 260 1260 286 1060 268 C860 250 660 286 460 268 C300 254 140 270 -40 280 Z" fill="#0a1617" opacity=".58"/>
+      <path d="M-40 214 C180 186 400 214 620 192 C840 170 1060 202 1280 180 C1430 164 1550 172 1640 166" fill="none" stroke="#9aa59a" stroke-width="1.6" opacity=".14"/>
+    </g>
+    <g fill="#050909">
+      <path d="M730 520 C760 498 794 506 806 536 C818 568 810 624 804 666 L750 674 C736 620 718 554 730 520 Z"/>
+      <path d="M780 500 C796 486 816 490 824 506 L818 524 L786 528 Z"/>
+      <path d="M760 528 L744 500 L752 496 L770 524 Z"/>
+      <path d="M840 540 C862 522 890 530 896 554 C902 580 890 626 882 658 L844 664 C832 618 828 568 840 540 Z"/>
+      <path d="M864 526 C878 514 898 518 904 532 L896 548 L868 550 Z"/>
+      <path d="M1000 556 C1022 534 1050 542 1058 568 C1064 594 1056 642 1046 678 L1002 684 C990 638 986 588 1000 556 Z"/>
+      <path d="M1038 540 C1052 526 1072 530 1078 546 L1070 562 L1042 564 Z"/>
+      <path d="M540 572 C560 554 586 560 594 582 C602 606 596 648 590 682 L548 688 C538 646 530 598 540 572 Z"/>
+    </g>
+    <g stroke="#b18b4f" opacity=".2" fill="none">
+      <path d="M552 600 L578 584"/><path d="M750 560 L790 544"/><path d="M1000 594 L1034 578"/>
+    </g>
+    <g opacity=".65">
+      <path d="M80 400 C180 380 260 390 340 420" fill="none" stroke="#080d0c" stroke-width="4"/>
+      <path d="M80 430 C170 414 240 422 320 446" fill="none" stroke="#080d0c" stroke-width="2"/>
+      <path d="M1120 380 C1240 360 1350 388 1450 420" fill="none" stroke="#080d0c" stroke-width="4"/>
+      <path d="M1140 412 C1240 396 1340 420 1440 446" fill="none" stroke="#080d0c" stroke-width="2"/>
+    </g>
+    <g stroke="#b8b9a4" opacity=".16">
+      <path d="M420 0 L390 480"/><path d="M920 0 L880 500"/><path d="M1320 0 L1280 500"/>
+    </g>
+    <path d="M0 846 C280 820 520 846 800 824" fill="none" stroke="#b18b4f" opacity=".16"/>
+    </svg>
+      <h2 class="sr-only">第 9 幕</h2>
+      <article class="copy layout-fragment anchor-left-low">
+  <div class="copy-inner">
+    <p>几天之内，船上的气氛始终怪诞而空洞。船员们心事重重。就在高小天彻底忍受不住，即将派人去探索陆地时——</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 10 / wide / diagonal / crest highlight / testimony / center-right / blue-black -->
+  <section class="act act--testimony" data-act="10" aria-label="第 10 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect width="1600" height="900" fill="#071011"/>
+    <ellipse cx="1140" cy="250" rx="430" ry="280" fill="#a9b3a0" opacity=".07" filter="url(#blur14)"/>
+    <g filter="url(#rough2)" opacity=".8">
+      <path d="M-40 120 C180 60 320 130 520 96 C720 62 900 120 1100 88 C1300 54 1460 104 1640 76 L1640 220 C1400 196 1220 244 1000 212 C780 180 560 236 340 204 C180 180 60 202 -40 218 Z" fill="#0b1a1b" opacity=".9"/>
+      <path d="M-40 250 C220 200 440 260 680 220 C920 180 1140 236 1360 208 C1460 196 1560 204 1640 196 L1640 292 C1420 286 1220 320 980 292 C740 264 520 318 280 292 C140 276 40 290 -40 300 Z" fill="#122827" opacity=".8"/>
+    </g>
+    <path d="M0 690 C260 672 520 696 800 676 C1080 656 1340 684 1600 664 L1600 900 L0 900 Z" fill="#061112"/>
+    <g filter="url(#rough)">
+      <path d="M-80 900 C90 760 210 610 390 520 C590 420 790 390 940 300 C1060 228 1110 150 1180 30 L1420 -60 L1510 80 C1450 240 1350 360 1200 462 C1040 570 890 630 770 730 C650 830 610 900 610 900 Z" fill="url(#wave-green)"/>
+      <path d="M-80 900 C120 770 250 626 430 538 C610 450 760 420 900 338 C1010 274 1080 200 1130 110" fill="none" stroke="#b9c9b5" stroke-width="2.2" opacity=".25"/>
+      <path d="M90 820 C230 700 340 600 470 536 C600 472 720 438 830 372" fill="none" stroke="#d8ddc6" stroke-width="3" opacity=".17"/>
+      <path d="M300 900 C430 790 530 700 680 634 C810 578 930 540 1030 460" fill="none" stroke="#020808" stroke-width="50" opacity=".4" filter="url(#blur14)"/>
+    </g>
+    <g fill="none" stroke="#d6dbc4" opacity=".35">
+      <path d="M700 322 C760 290 822 276 890 282 C850 316 800 336 746 346 C790 326 836 314 872 300" stroke-width="1.6"/>
+      <path d="M860 360 C920 330 980 324 1038 336 C990 366 940 382 894 390" stroke-width="1.2"/>
+      <path d="M980 286 C1030 260 1080 254 1128 264 C1090 288 1048 300 1010 306" stroke-width="1.1"/>
+      <path d="M220 620 C300 580 360 552 428 536" stroke-width="1.4"/>
+      <path d="M390 730 C480 668 560 630 650 606" stroke-width="1.2"/>
+    </g>
+    <g transform="translate(250 690) rotate(-18)">
+      <path d="M-40 170 C60 100 290 82 470 106 L430 240 C280 218 120 230 0 260 Z" fill="#050a0a"/>
+      <path d="M120 94 L90 -10 L120 -20 L178 84 Z" fill="#050a0a"/>
+      <path d="M20 140 C160 112 300 112 420 130" fill="none" stroke="#b18b4f" opacity=".2" stroke-width="1.2"/>
+      <path d="M-20 220 C120 194 300 198 440 218" fill="none" stroke="#b18b4f" opacity=".14"/>
+    </g>
+    <g stroke="#9db3a8" opacity=".25" fill="none">
+      <path d="M260 0 L120 600"/><path d="M520 0 L420 560"/><path d="M1280 0 L1170 520"/><path d="M1520 0 L1410 500"/>
+    </g>
+    <g fill="#b8c6b5" opacity=".35">
+      <circle cx="760" cy="240" r="1.3"/><circle cx="840" cy="210" r="1"/><circle cx="980" cy="198" r="1.2"/><circle cx="1100" cy="160" r="1"/><circle cx="620" cy="300" r="1"/>
+    </g>
+    </svg>
+      <h2 class="sr-only">第 10 幕</h2>
+      <article class="copy layout-testimony anchor-center-right">
+  <div class="copy-inner">
+    <p>“不好了！不好了！”一个水手披散着头发，冲进船长室，“哦不对，好了！好了！”</p>
+    <p>“怎么了？”高小天问，反正也不会更糟了。</p>
+    <p>“海！”水手上气不接下气，“海来了！”</p>
+    <p>海来了，如同既往一般博大，一般深邃，湛蓝的底色填充直到天际。船又开始在浪上前进，饥渴的帆又开始吞食海风。</p>
+    <p>“啊？”高小天完全呆住了，怀疑自己完全陷入了幻觉之中：“这这这……这是怎么一回事啊？”</p>
+    <p>“好这个……是神迹啊。”江彦辰右手叉腰，眉飞色舞地说：“鬼神之力又救了我们一次。”</p>
+    <p>“好……上课！”小天也高兴地回应。</p>
+    <p>没人注意到，海风更加潮湿，乌云更加厚重。</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 11 / mid / eye / warm spot / log / left-low / amber+black -->
+  <section class="act act--log" data-act="11" aria-label="第 11 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect width="1600" height="900" fill="#17150e"/>
+    <path d="M0 0 H1600 V650 H0 Z" fill="url(#wall-warm)"/>
+    <g opacity=".8">
+      <path d="M0 0 V660 M230 0 V660 M1500 0 V660" stroke="#0b0a07" stroke-width="3"/>
+      <path d="M0 660 H1600 V900 H0 Z" fill="#0c0c08"/>
+      <path d="M0 676 C300 656 600 682 900 666 C1180 652 1400 670 1600 654" fill="none" stroke="#6c5333" opacity=".2"/>
+      <path d="M820 140 H1260 V470 H820 Z" fill="#080c0c" stroke="#4a3721" stroke-width="4"/>
+      <path d="M840 160 H1240 V450 H840 Z" fill="#050a0a"/>
+      <path d="M860 200 C960 184 1100 206 1220 188 L1218 430 C1090 418 960 438 862 424 Z" fill="#0b1718" opacity=".7"/>
+    </g>
+    <ellipse cx="420" cy="480" rx="280" ry="240" fill="url(#lamp-glow)" opacity=".9"/>
+    <g>
+      <path d="M300 400 L354 400 L370 420 L286 420 Z" fill="#b18b4f" opacity=".5"/>
+      <path d="M316 350 L342 350 L348 400 L312 400 Z" fill="#22190f"/>
+      <path d="M318 350 C318 320 338 306 350 320 C342 334 348 342 354 346 L354 362 L318 362 Z" fill="#17120c"/>
+      <ellipse cx="331" cy="322" rx="17" ry="24" fill="#efc57d" opacity=".9"/>
+      <ellipse cx="331" cy="330" rx="54" ry="40" fill="#efc57d" opacity=".18" filter="url(#blur10)"/>
+    </g>
+    <g>
+      <path d="M960 150 C960 96 1020 58 1092 58 C1164 58 1224 96 1224 150 C1224 204 1164 242 1092 242 C1020 242 960 204 960 150 Z" fill="#1b1710" stroke="#b18b4f" stroke-width="4"/>
+      <circle cx="1092" cy="150" r="84" fill="#c8b88e"/>
+      <circle cx="1092" cy="150" r="84" fill="url(#clock-face)"/>
+      <g stroke="#3e3424" fill="none" opacity=".8">
+        <path d="M1092 82 V94 M1092 206 V218 M1024 150 H1036 M1148 150 H1160"/>
+        <path d="M1092 150 L1062 106" stroke="#2d2618" stroke-width="5"/>
+        <path d="M1092 150 L1122 132" stroke="#2d2618" stroke-width="3"/>
+        <circle cx="1092" cy="150" r="4" fill="#2d2618"/>
+      </g>
+      <path d="M1024 150 C1040 186 1070 210 1092 214 C1126 212 1154 184 1160 150" fill="none" stroke="#b18b4f" opacity=".15"/>
+      <path d="M1092 58 C1120 44 1156 50 1178 72" fill="none" stroke="#5d4829" stroke-width="2"/>
+    </g>
+    <g opacity=".85">
+      <path d="M650 560 C820 532 1050 542 1210 566 L1240 680 L640 700 Z" fill="#241d12"/>
+      <path d="M678 566 C840 544 1030 550 1180 572 L1204 660 L670 678 Z" fill="#3a2c1b" opacity=".65"/>
+      <path d="M700 610 C800 596 940 602 1080 586" fill="none" stroke="#6b5432" opacity=".4"/>
+      <path d="M720 560 L740 500 L790 506 L800 558" fill="#15130d"/>
+      <path d="M1070 542 L1090 490 L1136 496 L1138 552" fill="#15130d"/>
+      <path d="M960 588 L980 610 L1004 606" fill="none" stroke="#b18b4f" opacity=".4"/>
+    </g>
+    <g fill="#070a08" opacity=".9">
+      <path d="M1290 600 C1310 580 1344 588 1354 612 L1350 680 L1280 682 Z"/>
+      <path d="M1322 584 C1336 572 1356 578 1360 592 L1354 604 L1326 604 Z"/>
+    </g>
+    <g stroke="#b8b297" opacity=".1">
+      <path d="M400 0 L370 900"/><path d="M1420 0 L1390 900"/>
+    </g>
+    <path d="M0 760 C200 744 380 760 560 752" fill="none" stroke="#b18b4f" opacity=".13"/>
+    </svg>
+      <h2 class="sr-only">第 11 幕</h2>
+      <article class="copy layout-log anchor-left-low">
+  <div class="copy-inner">
+    <p>当天晚上，值夜的水手发现，月亮不见了。乌云遮住了月亮，应该也很常见。遮住星星，更加可以理解。但当十几个小时过去，他发现，日出没有来临，依旧漆黑一片。</p>
+    <p>高小天一觉睡到自然醒，只见窗外依旧是黑夜，只是再也睡不着。他看了眼时钟，发现已经早上9点，只觉得不能置信。正如江彦辰昨晚所说，世界荒谬，唯主能感化世界，但他也没有提到，世界会这么荒谬。</p>
+    <p>他惊异于无人叫醒，于是推门出去，刚一推开门，就看见全船成员，都在围着什么东西看。</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 12 / close / low / underlight / chart / right / green+black -->
+  <section class="act act--chart" data-act="12" aria-label="第 12 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect width="1600" height="900" fill="#050b09"/>
+    <path d="M0 0 H1600 V760 H0 Z" fill="#101b14"/>
+    <g filter="url(#rough)" opacity=".9">
+      <path d="M0 600 C280 570 520 606 780 580 C1040 554 1310 590 1600 566 L1600 900 L0 900 Z" fill="#0a0f0b"/>
+      <path d="M0 760 C300 730 600 766 900 740 C1180 716 1400 746 1600 724 L1600 900 L0 900 Z" fill="#050807"/>
+    </g>
+    <g>
+      <path d="M470 120 H940 V720 H470 Z" fill="#0a0d09"/>
+      <path d="M520 154 H884 V700 H520 Z" fill="#120f0a"/>
+      <path d="M548 176 H854 V690 H548 Z" fill="#0b1710"/>
+      <path d="M842 176 L854 690 L924 702 L910 158 Z" fill="#050706"/>
+      <path d="M842 176 C850 320 850 520 854 690 L872 692 C880 500 878 300 868 178 Z" fill="#d9b06e" opacity=".55"/>
+      <path d="M884 200 C894 340 894 540 888 676" fill="none" stroke="#d9b06e" stroke-width="5" opacity=".1" filter="url(#blur10)"/>
+      <path d="M476 124 H936" stroke="#030504" stroke-width="8"/>
+    </g>
+    <ellipse cx="866" cy="460" rx="130" ry="260" fill="#d9a257" opacity=".14" filter="url(#blur14)"/>
+    <path d="M880 720 L1380 700 L1500 900 L860 900 Z" fill="#101711" opacity=".55"/>
+    <g>
+      <path d="M250 690 L322 690 L334 710 L238 710 Z" fill="#b18b4f" opacity=".35"/>
+      <path d="M266 630 L306 630 L312 690 L258 690 Z" fill="#18140d"/>
+      <path d="M274 630 C274 604 292 592 306 602 C298 614 302 622 310 626 L310 642 L274 642 Z" fill="#100e0a"/>
+      <ellipse cx="289" cy="608" rx="14" ry="20" fill="#e8bd79" opacity=".8"/>
+      <ellipse cx="289" cy="620" rx="70" ry="50" fill="#e8bd79" opacity=".12" filter="url(#blur10)"/>
+    </g>
+    <g fill="none" stroke="#6e8a67" opacity=".35">
+      <path d="M0 420 C140 400 200 450 320 438 C400 430 460 450 500 472"/>
+      <path d="M900 360 C1020 340 1120 380 1240 360 C1340 344 1440 370 1600 352"/>
+      <path d="M1080 560 C1180 542 1260 560 1360 546" stroke-width="2"/>
+      <path d="M200 500 C260 486 300 498 340 512" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M0 760 C300 736 540 770 820 744 C1080 720 1350 760 1600 732 L1600 900 L0 900 Z" fill="#08100c"/>
+      <path d="M0 790 C300 766 560 800 840 774 C1100 750 1360 788 1600 762" fill="none" stroke="#7e9a80" stroke-width="2" opacity=".25"/>
+      <path d="M120 790 C360 774 520 800 760 782" fill="none" stroke="#d9b373" stroke-width="1.2" opacity=".2"/>
+      <path d="M560 820 C760 806 940 820 1100 808" fill="none" stroke="#8da98d" opacity=".18"/>
+    </g>
+    <g fill="#050806">
+      <path d="M1240 660 C1280 624 1340 632 1360 674 L1346 780 L1200 790 Z"/>
+      <path d="M1300 642 C1320 626 1346 632 1352 650 L1344 664 L1304 666 Z"/>
+    </g>
+    <g stroke="#a8b295" opacity=".08">
+      <path d="M360 0 L350 900"/><path d="M1200 0 L1180 900"/>
+    </g>
+    </svg>
+      <h2 class="sr-only">第 12 幕</h2>
+      <article class="copy layout-chart anchor-right">
+  <div class="copy-inner">
+    <p>一盏提灯。它本应属于值夜水手。</p>
+    <p>空气中不知何时飘来了浓浓的酸腐味道。高小天感到一股强烈的危机感在背后炸裂，让白色的套头帽扣在了他的脑袋上。</p>
+    <p>他分开人群，面对着针刺般的一对对目光，他宣布会尽快想出解决措施。</p>
+    <p>“大家最好都待在一起。”高小天说，“开足马力，我们冲出这个鬼地方！”他尽力让自己的声音沉稳而有力，但还是陷入了难堪的静默。</p>
+    <p>“地狱已至……”江彦辰阴沉地说：“我们已在东校，去生命也远矣……”他拍击腹部，却听不到一点声音，“连我的癌细胞都死光了……”</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 13 / overhead / mid / top light / testimony / center-left / cold gray -->
+  <section class="act act--testimony" data-act="13" aria-label="第 13 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect width="1600" height="900" fill="#0c0f0e"/>
+    <path d="M0 0 H1600 V900 H0 Z" fill="url(#floor-overhead)"/>
+    <ellipse cx="800" cy="460" rx="430" ry="310" fill="#c9b583" opacity=".07" filter="url(#blur14)"/>
+    <g transform="rotate(-3 800 480)">
+      <ellipse cx="800" cy="480" rx="390" ry="250" fill="#1a1710"/>
+      <ellipse cx="800" cy="480" rx="365" ry="230" fill="#4a3822" opacity=".55"/>
+      <ellipse cx="800" cy="480" rx="342" ry="212" fill="#211b12"/>
+      <ellipse cx="800" cy="480" rx="300" ry="180" fill="#3d2e1c" opacity=".65"/>
+      <ellipse cx="800" cy="480" rx="270" ry="156" fill="url(#paper)" opacity=".18"/>
+      <g stroke="#b18b4f" fill="none" opacity=".2">
+        <path d="M520 480 H1080"/><path d="M800 300 V660"/>
+        <circle cx="800" cy="480" r="90"/><circle cx="800" cy="480" r="140"/>
+      </g>
+    </g>
+    <g fill="#080b09">
+      <ellipse cx="800" cy="132" rx="120" ry="54"/>
+      <ellipse cx="1090" cy="250" rx="105" ry="48" transform="rotate(58 1090 250)"/>
+      <ellipse cx="1120" cy="650" rx="110" ry="50" transform="rotate(-58 1120 650)"/>
+      <ellipse cx="800" cy="786" rx="120" ry="54"/>
+      <ellipse cx="490" cy="650" rx="108" ry="48" transform="rotate(58 490 650)"/>
+      <ellipse cx="470" cy="270" rx="106" ry="48" transform="rotate(-58 470 270)"/>
+    </g>
+    <g fill="#070a08">
+      <path d="M640 186 C672 160 720 170 736 204 L720 288 L636 296 Z"/>
+      <path d="M888 184 C920 162 960 174 970 208 L952 292 L876 286 Z"/>
+      <path d="M1002 420 C1040 400 1082 420 1084 458 L1054 520 L992 512 Z"/>
+      <path d="M540 590 C570 570 608 584 614 620 L586 676 L532 660 Z"/>
+      <path d="M930 650 C960 632 990 646 996 676 L968 724 L918 710 Z"/>
+    </g>
+    <g>
+      <ellipse cx="610" cy="330" rx="150" ry="120" fill="#e1a65e" opacity=".15" filter="url(#blur10)"/>
+      <ellipse cx="1010" cy="610" rx="160" ry="130" fill="#e1a65e" opacity=".1" filter="url(#blur10)"/>
+      <path d="M590 360 L630 360 L642 376 L580 376 Z" fill="#b18b4f" opacity=".5"/>
+      <path d="M602 318 L618 318 L624 360 L598 360 Z" fill="#1e170e"/>
+      <ellipse cx="610" cy="312" rx="10" ry="14" fill="#eec27a"/>
+      <path d="M990 646 L1034 646 L1046 664 L980 664 Z" fill="#b18b4f" opacity=".45"/>
+      <path d="M1002 604 L1020 604 L1028 646 L998 646 Z" fill="#1b150d"/>
+      <ellipse cx="1011" cy="598" rx="10" ry="14" fill="#eec27a"/>
+    </g>
+    <g stroke="#b18b4f" fill="none" opacity=".18">
+      <path d="M310 310 C420 390 470 470 468 570"/>
+      <path d="M1290 590 C1180 540 1140 470 1138 400"/>
+      <path d="M420 770 C560 710 640 690 760 700"/>
+    </g>
+    <g fill="#cdc7aa" opacity=".4">
+      <circle cx="580" cy="300" r="1.5"/><circle cx="1040" cy="640" r="1.4"/><circle cx="760" cy="240" r="1.2"/><circle cx="900" cy="700" r="1"/>
+    </g>
+    </svg>
+      <h2 class="sr-only">第 13 幕</h2>
+      <article class="copy layout-testimony anchor-center-left">
+  <div class="copy-inner">
+    <p>众人围坐一圈，围住所有的提灯。但光源依旧晦暗，黑暗依旧强势。大家面面相觑，在熊熊的火光中看到了不动的终点。</p>
+    <p>但秒针每滴答一次，人就会少一个。只剩八个人……七个人……众人惊慌失措，跳起来互相乱看，但下一刻就会消失在余光远处。</p>
+    <p>只剩高小天与江彦辰两人。</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 14 / wide / eye / cold moon / epigraph / right / deep blue -->
+  <section class="act act--epigraph" data-act="14" aria-label="第 14 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect width="1600" height="900" fill="url(#sky-night)"/>
+    <ellipse cx="520" cy="264" rx="360" ry="280" fill="url(#moon-glow)" opacity=".85"/>
+    <circle cx="516" cy="260" r="94" fill="#c9c7a8" opacity=".19"/>
+    <g filter="url(#rough2)" opacity=".8">
+      <path d="M-40 320 C180 282 400 322 610 292 C840 258 1040 300 1260 270 C1440 246 1540 268 1640 254 L1640 360 C1420 348 1220 384 980 356 C740 328 520 380 280 352 C140 334 40 350 -40 360 Z" fill="#0b1a1b"/>
+      <path d="M-40 400 C240 368 460 404 700 380 C940 356 1180 392 1400 368 C1510 356 1580 364 1640 358 L1640 428 C1420 428 1200 452 960 432 C720 410 500 454 260 434 C120 422 20 430 -40 436 Z" fill="#061113"/>
+    </g>
+    <path d="M0 520 C300 500 620 526 900 508 C1160 492 1400 516 1600 500 L1600 900 L0 900 Z" fill="#081719"/>
+    <path d="M0 530 C300 510 620 536 900 518 C1160 502 1400 526 1600 510" fill="none" stroke="#b8c2b1" stroke-width="1.6" opacity=".18"/>
+    <g stroke="#8ba098" fill="none" opacity=".2">
+      <path d="M0 620 C260 600 520 628 800 606 C1080 584 1340 616 1600 594"/>
+      <path d="M0 700 C280 678 560 708 860 684 C1140 662 1370 692 1600 672"/>
+      <path d="M0 790 C280 766 580 798 900 772 C1180 750 1400 778 1600 760"/>
+    </g>
+    <g>
+      <path d="M0 700 H1600" stroke="#070c0c" stroke-width="12"/>
+      <path d="M0 716 H1600" stroke="#b18b4f" stroke-width="2" opacity=".18"/>
+      <path d="M1120 700 V900 M1280 700 V900 M1460 700 V900" stroke="#050a0a" stroke-width="10"/>
+      <path d="M60 700 V900 M200 700 V900" stroke="#050a0a" stroke-width="8"/>
+      <path d="M0 760 H1600" stroke="#050a0a" stroke-width="5" opacity=".8"/>
+    </g>
+    <g fill="none" stroke="#020606">
+      <path d="M-20 846 C140 810 300 804 470 818 C560 826 620 836 664 846" stroke-width="10" opacity=".88"/>
+      <path d="M-20 860 C140 824 300 818 470 832 C560 840 620 850 664 860" stroke="#8f7749" stroke-width="1.4" opacity=".17"/>
+      <ellipse cx="152" cy="882" rx="56" ry="13" stroke="#0a1110" stroke-width="6" opacity=".75"/>
+      <ellipse cx="152" cy="882" rx="34" ry="7" stroke="#0a1110" stroke-width="3" opacity=".55"/>
+    </g>
+    <g class="standing">
+      <path d="M390 406 C430 390 470 400 484 430 C500 464 492 548 478 620 L408 628 C390 540 372 446 390 406 Z" fill="#040809"/>
+      <path d="M420 402 C438 386 462 392 468 410 L460 430 L424 432 Z" fill="#040809"/>
+      <path d="M380 512 C340 530 318 570 336 606 C352 634 390 634 414 610 C390 594 378 564 392 538 Z" fill="#040809"/>
+      <path d="M470 506 C504 520 522 554 512 594 C504 620 478 630 456 620" fill="none" stroke="#040809" stroke-width="22"/>
+      <path d="M400 444 C426 430 460 438 474 460" fill="none" stroke="#b18b4f" opacity=".2"/>
+      <path d="M460 620 L520 700" stroke="#040809" stroke-width="3"/>
+    </g>
+    <g class="fallbody">
+      <circle cx="500" cy="566" r="9" fill="#040809"/>
+      <path d="M490 574 C503 568 516 576 518 592 L514 630 C508 640 496 640 490 630 L486 592 Z" fill="#040809"/>
+      <path d="M492 600 L470 612 M514 600 L534 588" stroke="#040809" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <g class="splash" fill="none" stroke="#dfe6d2" stroke-linecap="round">
+      <ellipse cx="520" cy="660" rx="34" ry="8" stroke-width="2" opacity=".7"/>
+      <ellipse cx="520" cy="660" rx="18" ry="4" stroke-width="1.4" opacity=".85"/>
+      <path d="M494 648 C500 636 508 632 514 644" stroke-width="1.4" opacity=".5"/>
+      <path d="M542 646 C548 634 556 632 560 646" stroke-width="1.4" opacity=".45"/>
+    </g>
+    <g opacity=".5" fill="none" stroke="#8a9c95">
+      <path d="M680 0 C700 180 660 380 690 560" stroke-width="1.2"/>
+      <path d="M760 0 C780 160 740 360 770 540" stroke-width=".8"/>
+      <path d="M300 0 C320 220 290 420 310 610" stroke-width="1"/>
+    </g>
+    <g fill="#cfd0b5" opacity=".35">
+      <circle cx="720" cy="260" r="1"/><circle cx="840" cy="310" r="1.2"/><circle cx="960" cy="230" r="1"/><circle cx="1080" cy="330" r="1.1"/>
+    </g>
+    </svg>
+      <h2 class="sr-only">第 14 幕</h2>
+      <article class="copy layout-epigraph anchor-right">
+  <div class="copy-inner">
+    <p>“干月，月月，干干……”江彦辰陷入了癫狂状态，在急乱奔跑。</p>
+    <p>“停下！”已为时已晚。江彦辰一头扑倒，栽入无边海洋。</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 15 / close / low / side light / fragment / left-low / cyan-black -->
+  <section class="act act--fragment" data-act="15" aria-label="第 15 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect width="1600" height="900" fill="#07100f"/>
+    <path d="M0 0 H1600 V760 H0 Z" fill="#12201b"/>
+    <g opacity=".9">
+      <path d="M0 0 H1600 V520 H0 Z" fill="#101c17"/>
+      <path d="M0 520 C300 500 600 524 900 506 C1180 490 1400 510 1600 496 L1600 900 L0 900 Z" fill="#070d0b"/>
+      <path d="M580 0 V760 H1010 V0 Z" fill="#040807"/>
+      <path d="M620 0 H970 V744 H620 Z" fill="#0a1610"/>
+      <path d="M620 0 H686 V744 H620 Z" fill="#1d2c20" opacity=".7"/>
+      <path d="M900 0 H970 V744 H900 Z" fill="#07100b"/>
+      <path d="M654 0 V744" stroke="#d6a55f" stroke-width="4" opacity=".2"/>
+      <path d="M960 0 V744" stroke="#d6a55f" stroke-width="2" opacity=".15"/>
+      <path d="M560 700 H1040" stroke="#050806" stroke-width="10"/>
+    </g>
+    <ellipse cx="640" cy="500" rx="220" ry="280" fill="#d0a05f" opacity=".08" filter="url(#blur14)"/>
+    <g>
+      <path d="M0 750 C300 730 620 760 950 736 C1200 718 1420 744 1600 724 L1600 900 L0 900 Z" fill="#0a1411"/>
+      <path d="M0 780 C300 760 620 790 950 766 C1200 748 1420 774 1600 754" fill="none" stroke="#a9c2b2" stroke-width="2" opacity=".22"/>
+      <path d="M0 820 C300 800 620 830 950 806 C1200 788 1420 814 1600 794" fill="none" stroke="#8ea89a" opacity=".15"/>
+      <path d="M0 860 C300 840 620 870 950 846 C1200 828 1420 854 1600 834" fill="none" stroke="#7e978a" opacity=".1"/>
+      <path d="M520 790 C620 782 680 790 760 786" fill="none" stroke="#e1bd7a" opacity=".18" stroke-width="2"/>
+      <path d="M760 800 C820 796 880 802 940 797" fill="none" stroke="#d6b06c" opacity=".1"/>
+    </g>
+    <g>
+      <path d="M170 690 C226 654 286 660 318 690 L334 760 L150 780 Z" fill="#070b08"/>
+      <path d="M190 686 C230 662 270 666 294 686 L284 716 L178 724 Z" fill="#141b12" opacity=".7"/>
+      <path d="M190 746 C240 732 280 738 316 752" fill="none" stroke="#b18b4f" opacity=".2"/>
+      <path d="M240 700 C260 686 276 692 278 708" fill="none" stroke="#d0a55f" opacity=".25"/>
+    </g>
+    <g fill="none" stroke="#6f8a76" opacity=".3">
+      <path d="M0 560 C100 548 180 570 260 558"/>
+      <path d="M1080 540 C1200 522 1300 544 1420 528"/>
+      <path d="M1100 590 C1220 574 1320 594 1460 578"/>
+    </g>
+    <g fill="#050807">
+      <path d="M1120 640 C1160 620 1210 632 1220 668 L1200 760 L1090 766 Z"/>
+      <path d="M1164 626 C1182 610 1210 616 1218 634 L1210 648 L1168 650 Z"/>
+    </g>
+    <g fill="#d5c8a8" opacity=".22">
+      <circle cx="360" cy="780" r="1.2"/><circle cx="820" cy="820" r="1"/><circle cx="1000" cy="770" r="1.3"/>
+    </g>
+    </svg>
+      <h2 class="sr-only">第 15 幕</h2>
+      <article class="copy layout-fragment anchor-left-low">
+  <div class="copy-inner">
+    <p>高小天心脏快要跳出，奔向楼梯，盲目寻求庇护。他跑进船长室，那洞开的落地黑窗仿佛怪物的大口，让他紧张不已。</p>
+    <p>不行！他躲进厕所，紧闸上门。但幽闭的空间倍增了恐惧，他呼吸触发哮喘，差点气绝人亡。</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 16 / close / eye / single point / testimony / right / green+gold -->
+  <section class="act act--testimony" data-act="16" aria-label="第 16 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect width="1600" height="900" fill="#07100d"/>
+    <path d="M0 0 H1600 V900 H0 Z" fill="url(#wall-green)"/>
+    <g opacity=".6">
+      <path d="M0 650 C300 630 620 656 920 638 C1180 622 1400 648 1600 630 L1600 900 L0 900 Z" fill="#060b08"/>
+      <path d="M0 0 V650 M300 0 V650 M1600 0 V650" stroke="#0a100b" stroke-width="2"/>
+    </g>
+    <defs>
+      <clipPath id="portClip"><circle cx="548" cy="408" r="238"/></clipPath>
+      <radialGradient id="redVeil" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#541713" stop-opacity=".55"/><stop offset="1" stop-color="#180606" stop-opacity="0"/></radialGradient>
+    </defs>
+    <g fill="#b18b4f" opacity=".15">
+      <path d="M180 170 C330 86 450 98 566 40 C600 180 604 330 580 480 C560 610 530 740 510 900 L190 900 C250 650 290 380 180 170 Z" filter="url(#blur14)"/>
+      <path d="M1050 80 C1140 160 1130 300 1080 420 C1030 540 1030 660 1090 780" fill="none" stroke="#6e1d18" stroke-width="80" opacity=".2"/>
+      <path d="M760 120 C820 260 800 420 740 560" fill="none" stroke="#7d201b" stroke-width="40" opacity=".15"/>
+    </g>
+    <circle cx="548" cy="408" r="256" fill="#090d0b"/>
+    <circle cx="548" cy="408" r="238" fill="none" stroke="#5a4627" stroke-width="20"/>
+    <g clip-path="url(#portClip)">
+      <rect x="300" y="160" width="500" height="500" fill="#172620"/>
+      <path d="M300 330 C380 316 460 328 548 318 C630 308 710 322 800 312 L800 470 L300 470 Z" fill="#39504a" opacity=".55"/>
+      <path d="M300 420 C380 408 460 420 548 410 C630 400 710 414 800 404 L800 560 L300 560 Z" fill="#263a35" opacity=".7"/>
+      <path d="M362 420 C410 388 470 382 520 402 C570 422 580 470 552 504 C520 536 462 532 424 506 C394 486 372 452 362 420 Z" fill="#050b0a"/>
+      <path d="M506 400 C526 390 548 398 554 418 C562 444 546 468 522 466 C498 464 486 440 494 420 C497 410 501 404 506 400 Z" fill="#c39c5a" opacity=".55"/>
+      <ellipse cx="518" cy="432" rx="7" ry="24" fill="#1b1208"/>
+      <path d="M508 428 C512 420 520 418 526 424" fill="none" stroke="#f0d49b" opacity=".5"/>
+      <path d="M382 360 C410 330 450 318 492 320" fill="none" stroke="#7e8a78" opacity=".25" stroke-width="2"/>
+      <rect x="300" y="160" width="500" height="500" fill="url(#redVeil)" opacity=".7"/>
+      <g stroke="#b4c0ad" opacity=".14">
+        <path d="M360 220 L320 600"/><path d="M748 200 L710 610"/>
+      </g>
+      <path d="M316 480 C390 456 460 470 548 456 C630 444 716 462 790 448" fill="none" stroke="#c6b183" opacity=".14" stroke-width="2"/>
+    </g>
+    <circle cx="548" cy="408" r="240" fill="none" stroke="#a57c43" stroke-width="3" opacity=".5"/>
+    <circle cx="548" cy="408" r="264" fill="none" stroke="#2f2415" stroke-width="2"/>
+    <g fill="#b18b4f" opacity=".55">
+      <circle cx="342" cy="596" r="5"/><circle cx="716" cy="582" r="5"/><circle cx="350" cy="220" r="4"/><circle cx="710" cy="208" r="4"/>
+    </g>
+    <g stroke="#bcae8c" fill="none" opacity=".2">
+      <path d="M220 120 C300 170 340 260 336 340"/>
+      <path d="M780 120 C720 180 700 270 712 350"/>
+      <path d="M280 700 C360 660 430 650 520 660"/>
+    </g>
+    <g fill="#080c09" opacity=".85">
+      <path d="M1130 630 C1180 610 1230 626 1240 666 L1220 760 L1090 770 Z"/>
+      <path d="M1180 614 C1200 600 1228 606 1236 626 L1226 640 L1184 642 Z"/>
+    </g>
+    <path d="M0 780 C240 760 460 786 700 766" fill="none" stroke="#b18b4f" opacity=".12"/>
+    </svg>
+      <h2 class="sr-only">第 16 幕</h2>
+      <article class="copy layout-testimony anchor-right">
+  <div class="copy-inner">
+    <p>“制图室！”他冲出厕所，跌跌撞撞跑向制图室，一脚踢开了门。他忽地一愣，随后突然感觉到有点可疑。刚才甲板上那么喧哗，谢莜萱都没有出来，为什么现在不见了人影？难道她也遭到了不测？他发起抖来，像高烧的病人。</p>
+    <p>他开始怀疑一切都是幻觉，从登上船的那一天，到江彦辰投海自尽，突然出现的陆地是幻觉，陆地上嶙峋的怪石是幻觉，没有太阳的白天更是幻觉中的幻觉。</p>
+    <p>至于现在他所处的制图室也泛着奇怪与不真实。难道怪异摇动的阴影不是幻觉？难道湿答答滑行，蠕动的声音不是幻觉？难道现在在他面前，大红色的薄雾，刀削一样奇怪的锐面不是幻觉？高小天集中最后的精神，只看见一片绝望的黑暗在眼前铺展。</p>
+    <p>“在深之深处……”他喃喃自语。</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 17 / minimal / no camera / blood-red veil / epigraph / center / wine+black -->
+  <section class="act act--epigraph act--death" data-act="17" aria-label="第 17 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+<defs>
+  <radialGradient id="death-bloom" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#611912" stop-opacity=".62"/>
+    <stop offset=".42" stop-color="#3a0e0a" stop-opacity=".34"/>
+    <stop offset=".78" stop-color="#130707" stop-opacity=".12"/>
+    <stop offset="1" stop-color="#060708" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="d-blur" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="64"/></filter>
+</defs>
+<rect width="1600" height="900" fill="#040607"/>
+<ellipse cx="980" cy="410" rx="690" ry="560" fill="url(#death-bloom)"/>
+<ellipse cx="240" cy="640" rx="520" ry="330" fill="#0a0b0c" opacity=".5" filter="url(#d-blur)"/>
+<ellipse cx="1400" cy="720" rx="460" ry="260" fill="#0b0c0d" opacity=".45" filter="url(#d-blur)"/>
+<ellipse cx="1060" cy="470" rx="430" ry="300" fill="#7a211a" opacity=".1" filter="url(#d-blur)"/>
+    </svg>
+      <h2 class="sr-only">第 17 幕</h2>
+      <article class="copy layout-epigraph anchor-center">
+  <div class="copy-inner">
+    <p>谢莜萱一口吞掉了他，并感到像奶油冰淇淋一样滑腻香醇。</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 18 / wide / low / dusk side / log / left-low / sodium+cyan -->
+  <section class="act act--log" data-act="18" aria-label="第 18 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect width="1600" height="900" fill="url(#sky-port)"/>
+    <ellipse cx="390" cy="252" rx="360" ry="260" fill="#d99c57" opacity=".2" filter="url(#blur14)"/>
+    <g filter="url(#rough2)" opacity=".8">
+      <path d="M-40 180 C180 130 360 180 560 148 C780 112 960 160 1180 124 C1360 96 1500 122 1640 100 L1640 220 C1400 208 1200 250 980 220 C760 190 540 244 320 214 C180 196 60 212 -40 224 Z" fill="#6c6e62" opacity=".28"/>
+      <path d="M-40 300 C220 270 440 310 680 282 C920 254 1160 296 1400 268 C1500 256 1580 262 1640 256 L1640 340 C1420 338 1200 366 960 342 C720 318 500 366 260 344 C120 332 20 340 -40 346 Z" fill="#263b3d" opacity=".7"/>
+    </g>
+    <path d="M0 450 C300 436 600 460 900 444 C1180 428 1400 450 1600 436 L1600 900 L0 900 Z" fill="#233a3c"/>
+    <path d="M0 512 C280 496 560 522 860 504 C1140 488 1380 514 1600 498 L1600 900 L0 900 Z" fill="#122529"/>
+    <g fill="#0a1415">
+      <path d="M0 560 H700 V640 H0 Z"/>
+      <path d="M0 640 H1600 V900 H0 Z"/>
+      <path d="M0 640 C300 620 560 654 820 634 C1080 614 1360 648 1600 628" fill="none" stroke="#b18b4f" opacity=".14"/>
+      <path d="M0 700 H1600" stroke="#050a0b" stroke-width="6"/>
+      <path d="M0 760 H1600" stroke="#050a0b" stroke-width="4" opacity=".6"/>
+    </g>
+    <g>
+      <path d="M980 250 H1440 L1520 540 L900 560 Z" fill="#080e10"/>
+      <path d="M1010 266 H1416 L1478 500 L950 520 Z" fill="#182a2c" opacity=".8"/>
+      <path d="M1150 190 V540 M1280 170 V530" stroke="#060b0c" stroke-width="6"/>
+      <path d="M1010 300 H1420" stroke="#b18b4f" opacity=".12"/>
+      <path d="M1020 400 H1450" stroke="#b18b4f" opacity=".08"/>
+      <path d="M940 520 C1120 496 1300 508 1490 488" fill="none" stroke="#b18b4f" opacity=".2"/>
+      <path d="M900 530 L860 700" stroke="#060b0c" stroke-width="4"/>
+    </g>
+    <g fill="#050a0b">
+      <path d="M90 430 V300 M90 330 L180 310 M90 360 L160 348" stroke="#050a0b" stroke-width="5"/>
+      <path d="M120 300 C210 280 290 300 330 350 L330 430 L110 440 Z"/>
+      <path d="M150 430 L140 620 L230 620 L236 430 Z"/>
+      <path d="M1260 360 L1320 282 L1340 290 L1300 380" stroke="#050a0b" stroke-width="8"/>
+      <path d="M1320 282 L1440 260" stroke="#050a0b" stroke-width="4"/>
+      <path d="M1390 262 L1390 520" stroke="#050a0b" stroke-width="2"/>
+    </g>
+    <g fill="#050a0a" transform="translate(268 42)">
+      <path d="M600 640 C630 620 660 632 666 662 L650 740 L580 746 Z"/>
+      <path d="M632 626 C648 614 668 620 674 638 L666 650 L634 652 Z"/>
+      <path d="M720 650 C748 630 778 642 784 672 L770 750 L700 756 Z"/>
+      <path d="M752 636 C768 622 788 630 792 648 L784 660 L754 662 Z"/>
+      <path d="M840 636 C868 618 898 630 904 660 L888 738 L820 744 Z"/>
+      <path d="M470 654 C498 638 526 650 530 680 L514 750 L452 754 Z"/>
+    </g>
+    <g>
+      <path d="M500 560 V420 M500 420 L470 380 M500 420 L530 380" stroke="#080d0e" stroke-width="4"/>
+      <path d="M470 380 C456 360 468 340 490 340 C512 340 524 360 510 380 Z" fill="#e0a15a" opacity=".38"/>
+      <ellipse cx="490" cy="392" rx="70" ry="45" fill="#e0a15a" opacity=".1" filter="url(#blur10)"/>
+      <path d="M850 580 V450 M850 450 L820 410 M850 450 L880 410" stroke="#080d0e" stroke-width="4"/>
+      <path d="M820 410 C806 390 818 370 840 370 C862 370 874 390 860 410 Z" fill="#e0a15a" opacity=".33"/>
+    </g>
+    <g opacity=".7">
+      <use href="#fig-xie" x="300" y="380" width="100" height="260"/>
+      <use href="#fig-jia" x="410" y="380" width="106" height="264"/>
+    </g>
+    <path d="M0 840 C300 820 620 844 950 820" fill="none" stroke="#b18b4f" opacity=".14"/>
+    <g fill="#04090a">
+      <path d="M1196 900 C1192 872 1198 854 1212 850 C1228 846 1240 860 1240 878 L1240 900 Z"/>
+      <ellipse cx="1216" cy="892" rx="26" ry="7" fill="#04090a"/>
+    </g>
+    <circle cx="1236" cy="884" r="15" fill="none" stroke="#0a1213" stroke-width="3.4"/>
+    <path d="M1236 884 C1276 892 1320 900 1360 900" fill="none" stroke="#0a1213" stroke-width="2.6"/>
+    <path d="M1236 884 C1276 892 1320 900 1360 900" fill="none" stroke="#6d674f" stroke-width=".8" opacity=".3"/>
+    <ellipse cx="720" cy="858" rx="130" ry="13" fill="#e0a15a" opacity=".05" filter="url(#blur10)"/>
+    <g stroke="#c9a86a" opacity=".16" fill="none">
+      <path d="M600 802 C700 792 800 808 900 798"/>
+      <path d="M1180 692 C1260 682 1360 696 1460 686"/>
+    </g>
+    <g fill="none" stroke="#050a0b" stroke-width="2" opacity=".7">
+      <path d="M1010 168 C1024 158 1040 160 1048 170 C1040 178 1024 178 1016 172 Z"/>
+    </g>
+    </svg>
+      <h2 class="sr-only">第 18 幕</h2>
+      <article class="copy layout-log anchor-left-low">
+  <div class="copy-inner">
+    <p>又是大陆航海总局平凡的一天。贾凯齐船长命令手下解开缆绳。“天赋号”将于今天启程，前往爱丁岛收集矿物，趁着最后一点闲暇，他与新请的领航员攀谈了起来，那是一位可怜的女士，是一场恐怖海难唯一的幸存者。</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 19 / mid / eye / warm side / chart / right-mid / amber+cyan -->
+  <section class="act act--chart" data-act="19" aria-label="第 19 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect width="1600" height="900" fill="url(#sky-dusk)"/>
+    <path d="M0 450 C300 436 620 460 900 444 C1180 428 1400 450 1600 436 L1600 900 L0 900 Z" fill="#112527"/>
+    <g opacity=".9">
+      <path d="M0 560 H1600 V900 H0 Z" fill="#1b1b13"/>
+      <path d="M0 560 C300 540 560 570 820 550 C1080 530 1360 562 1600 542 L1600 600 H0 Z" fill="#3d3020" opacity=".7"/>
+      <path d="M0 620 H1600" stroke="#0b0c09" stroke-width="3"/>
+      <path d="M0 690 H1600" stroke="#0b0c09" stroke-width="3" opacity=".7"/>
+      <path d="M0 770 H1600" stroke="#0b0c09" stroke-width="4" opacity=".6"/>
+    </g>
+    <g>
+      <path d="M0 580 H1600" stroke="#b18b4f" opacity=".25" stroke-width="2"/>
+      <path d="M80 580 V900 M240 580 V900 M1400 580 V900 M1540 580 V900" stroke="#090c08" stroke-width="8"/>
+      <path d="M0 520 H1600" stroke="#080c0a" stroke-width="4" opacity=".8"/>
+    </g>
+    <g>
+      <use href="#fig-xie" x="330" y="256" width="200" height="500"/>
+      <use href="#fig-jia" x="650" y="270" width="190" height="490"/>
+      <path d="M430 402 C470 386 510 394 530 420" fill="none" stroke="#b18b4f" opacity=".2"/>
+      <path d="M730 418 C770 402 800 414 816 440" fill="none" stroke="#b18b4f" opacity=".16"/>
+    </g>
+    <g>
+      <ellipse cx="920" cy="650" rx="150" ry="100" fill="#e0a15a" opacity=".11" filter="url(#blur10)"/>
+      <path d="M860 648 L990 640 L1020 676 L838 686 Z" fill="#17140e"/>
+      <path d="M880 650 C920 638 960 642 1000 650" fill="none" stroke="#b18b4f" opacity=".35"/>
+      <circle cx="938" cy="664" r="26" fill="#0d0d09" stroke="#b18b4f" stroke-width="1.4"/>
+      <path d="M938 646 L944 658 L956 664 L944 670 L938 682 L932 670 L920 664 L932 658 Z" fill="#b18b4f" opacity=".4"/>
+      <path d="M938 622 V640" stroke="#b18b4f" opacity=".2"/>
+    </g>
+    <g opacity=".8">
+      <path d="M1240 120 V620" stroke="#060b0a" stroke-width="8"/>
+      <path d="M1260 160 C1400 140 1480 180 1540 230" fill="none" stroke="#060b0a" stroke-width="4"/>
+      <path d="M1270 300 C1380 280 1460 310 1530 350" fill="none" stroke="#060b0a" stroke-width="2"/>
+      <path d="M1090 180 L1240 150" stroke="#060b0a" stroke-width="3"/>
+    </g>
+    <ellipse cx="260" cy="460" rx="250" ry="180" fill="#d79a56" opacity=".12" filter="url(#blur14)"/>
+    <g stroke="#b7c1ae" opacity=".12">
+      <path d="M480 0 L440 500"/><path d="M980 0 L940 500"/><path d="M1520 0 L1480 500"/>
+    </g>
+    <path d="M0 840 C300 820 620 844 950 820" fill="none" stroke="#b18b4f" opacity=".12"/>
+    </svg>
+      <h2 class="sr-only">第 19 幕</h2>
+      <article class="copy layout-chart anchor-right-mid">
+  <div class="copy-inner">
+    <p>“你听说过海怪吗？”他故意把话题引到恐怖的方向，不知道她会不会有心理阴影，贾凯齐想。</p>
+    <p>“当然听说过。”谢莜萱兴致勃勃地说，“她们有巨大的形体，当海怪出现时，整片海水都会干涸褪去。”</p>
+    <p>“哈哈，”贾凯齐笑了，“我听说海怪还有数不清的触手和利齿尖牙。”</p>
+    <p>“不是的，”谢莜萱说，“她们善于隐藏与变化，并没有固定的形态。可以变成大章鱼！或者大白鲨，贝壳，或者水母什么的……”</p>
+    <p>“还有人类？”贾凯齐故意板起脸来，“我现在怀疑，你就是海怪变化而来！”</p>
+    <p>他们都笑出了声。船上的气氛更加活跃。</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 20 / wide / minimal / cold horizon / fragment / far-right / cyan-gray -->
+  <section class="act act--fragment" data-act="20" aria-label="第 20 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect width="1600" height="900" fill="url(#sky-cold)"/>
+    <ellipse cx="760" cy="430" rx="560" ry="200" fill="#d7d7bf" opacity=".05" filter="url(#blur14)"/>
+    <g filter="url(#blur14)">
+      <ellipse cx="306" cy="238" rx="92" ry="50" fill="#e4e2c8" opacity=".05"/>
+      <ellipse cx="306" cy="238" rx="46" ry="26" fill="#efe9c9" opacity=".06"/>
+      <ellipse cx="742" cy="186" rx="310" ry="15" fill="#d9dcc4" opacity=".05"/>
+      <ellipse cx="1196" cy="286" rx="250" ry="13" fill="#d9dcc4" opacity=".042"/>
+      <ellipse cx="176" cy="502" rx="250" ry="15" fill="#c9cfba" opacity=".055"/>
+    </g>
+    <path d="M58 529 C76 522 102 521 128 527 C132 528 133 531 129 532 L59 532 Z" fill="#0a1415" opacity=".55"/>
+    <path d="M0 540 C300 528 600 544 900 532 C1180 520 1400 538 1600 526 L1600 900 L0 900 Z" fill="#0b191b"/>
+    <path d="M0 546 C300 534 600 550 900 538 C1180 526 1400 544 1600 532" fill="none" stroke="#bcc4b2" stroke-width="1.6" opacity=".2"/>
+    <g stroke="#687d78" fill="none" opacity=".18">
+      <path d="M0 650 C280 640 560 660 860 648 C1140 636 1380 654 1600 642"/>
+      <path d="M0 730 C300 718 600 738 900 726 C1180 714 1400 732 1600 720"/>
+      <path d="M0 810 C300 798 600 818 900 806 C1180 794 1400 812 1600 800"/>
+    </g>
+    <g>
+      <path d="M0 900 L0 690 C120 660 260 646 400 650 C520 654 610 680 690 720 L760 900 Z" fill="#04090a"/>
+      <path d="M0 720 C130 690 260 682 380 694" fill="none" stroke="#b18b4f" opacity=".18" stroke-width="1.4"/>
+      <path d="M760 900 L690 720 L760 690 L900 900 Z" fill="#050a0b"/>
+    </g>
+    <g opacity=".7">
+      <path d="M1240 520 C1300 508 1360 520 1400 548" fill="none" stroke="#0a1415" stroke-width="4"/>
+      <path d="M1260 560 C1310 548 1360 560 1390 582" fill="none" stroke="#0a1415" stroke-width="2"/>
+      <path d="M980 300 C1040 280 1090 290 1120 310" fill="none" stroke="#9ca99a" stroke-width="1.2" opacity=".3"/>
+    </g>
+    <ellipse cx="820" cy="524" rx="470" ry="40" fill="#d8dbc2" opacity=".07" filter="url(#blur14)"/>
+    <g filter="url(#blur14)">
+      <ellipse cx="440" cy="540" rx="320" ry="26" fill="#c8ccb6" opacity=".06"/>
+      <ellipse cx="1050" cy="552" rx="300" ry="22" fill="#c8ccb6" opacity=".055"/>
+      <ellipse cx="760" cy="584" rx="210" ry="18" fill="#d2d4bb" opacity=".05"/>
+    </g>
+    <g opacity=".72">
+      <path d="M764 524 L892 524 L878 540 L780 540 Z" fill="#06100f"/>
+      <path d="M772 543 C800 550 856 550 884 543" fill="none" stroke="#06100f" stroke-width="2" opacity=".5" filter="url(#blur10)"/>
+      <path d="M808 522 V454" stroke="#06100f" stroke-width="2.4"/>
+      <path d="M856 522 V464" stroke="#06100f" stroke-width="2"/>
+      <path d="M808 458 C794 472 790 492 796 510 L808 510 Z" fill="#081413"/>
+      <path d="M856 468 C872 482 876 500 870 514 L856 514 Z" fill="#081413"/>
+      <path d="M810 470 C824 478 836 492 840 508 L810 508 Z" fill="#0a1715" opacity=".92"/>
+      <path d="M852 478 C842 488 836 500 834 512 L852 512 Z" fill="#0a1715" opacity=".92"/>
+      <path d="M808 446 L818 454 L808 458 Z" fill="#081413"/>
+      <path d="M856 456 L866 464 L856 468 Z" fill="#081413"/>
+      <path d="M768 520 L888 520" stroke="#98a48f" stroke-width=".6" opacity=".3"/>
+    </g>
+    <g fill="none" stroke="#bcc4b2" stroke-width="1.1" opacity=".15">
+      <path d="M190 618 q18 -4 36 0 M262 636 q14 -3 28 0 M346 610 q16 -4 32 0"/>
+      <path d="M900 608 q20 -4 40 0 M982 628 q16 -3 32 0 M1062 612 q18 -4 36 0"/>
+      <path d="M432 660 q22 -5 44 0 M540 676 q18 -4 36 0"/>
+      <path d="M864 652 q24 -5 48 0 M968 668 q20 -4 40 0"/>
+      <path d="M620 700 q26 -5 52 0 M706 714 q22 -4 44 0"/>
+    </g>
+    <g fill="none" stroke="#9ca99a" stroke-width="1" opacity=".22">
+      <path d="M1016 262 q9 -7 18 0 q9 -7 18 0"/>
+      <path d="M1128 296 q7 -5 14 0 q7 -5 14 0"/>
+    </g>
+    <g fill="#cfd2bb" opacity=".2">
+      <circle cx="812" cy="556" r="1.1"/><circle cx="826" cy="562" r=".8"/><circle cx="872" cy="554" r=".9"/>
+      <circle cx="700" cy="690" r="1"/><circle cx="716" cy="696" r=".8"/>
+    </g>
+    <g fill="#c7c9b2" opacity=".32">
+      <circle cx="860" cy="260" r="1.1"/><circle cx="960" cy="300" r=".9"/><circle cx="700" cy="340" r="1"/><circle cx="1100" cy="220" r="1.2"/>
+    </g>
+    <path d="M0 860 C300 840 600 860 900 846" fill="none" stroke="#b18b4f" opacity=".1"/>
+    </svg>
+      <h2 class="sr-only">第 20 幕</h2>
+      <article class="copy layout-fragment anchor-far-right">
+  <div class="copy-inner">
+    <p>贾凯齐向远方眺望，他看到——</p>
+  </div>
+</article>
+    </div>
+  </section>
+<!-- act 21 / wide / low / moon backlight / epigraph / bottom-center / cold green+black -->
+  <section class="act act--epigraph" data-act="21" aria-label="第 21 幕">
+    <div class="stage">
+      <svg class="plate " viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+<defs>
+  <linearGradient id="sail-lit" x1="1112" y1="0" x2="1640" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#828a6c" stop-opacity=".3"/>
+    <stop offset=".3" stop-color="#5f6655" stop-opacity=".22"/>
+    <stop offset=".66" stop-color="#3a4136" stop-opacity=".16"/>
+    <stop offset="1" stop-color="#1b2220" stop-opacity=".12"/>
+  </linearGradient>
+</defs>
+    <rect width="1600" height="900" fill="#050c0d"/>
+    <ellipse cx="960" cy="240" rx="380" ry="240" fill="#cfd0b4" opacity=".045"/>
+    <g>
+      <path d="M1152 132 C1122 200 1108 300 1112 400 C1116 486 1128 560 1138 620 C1144 664 1152 690 1158 706 L1640 700 L1640 118 C1440 124 1280 128 1152 132 Z" fill="#39423a" opacity=".5"/>
+      <path d="M1152 132 C1122 200 1108 300 1112 400 C1116 486 1128 560 1138 620 C1144 664 1152 690 1158 706" fill="none" stroke="#8e9682" stroke-width="1.4" opacity=".22"/>
+      <path d="M1152 132 C1122 200 1108 300 1112 400 C1116 486 1128 560 1138 620 C1144 664 1152 690 1158 706" fill="none" stroke="#cfd2b2" stroke-width="3.2" opacity=".1"/>
+      <ellipse cx="1290" cy="330" rx="180" ry="150" fill="#8b957e" opacity=".07" filter="url(#blur14)"/>
+      <ellipse cx="1360" cy="560" rx="150" ry="90" fill="#0a1110" opacity=".18" filter="url(#blur14)"/>
+      <g fill="none" stroke="#0a1412" stroke-width="1.1" opacity=".45">
+        <path d="M1190 134 C1166 230 1158 330 1162 420 C1166 500 1176 570 1184 630"/>
+        <path d="M1240 130 C1218 240 1212 350 1218 440 C1224 520 1234 586 1242 640"/>
+        <path d="M1300 128 C1282 250 1278 380 1286 480 C1292 556 1302 610 1310 660"/>
+        <path d="M1360 126 C1346 260 1344 400 1352 500 C1358 570 1368 620 1376 668"/>
+        <path d="M1424 124 C1412 270 1412 420 1420 520 C1426 586 1436 632 1444 676"/>
+        <path d="M1492 122 C1482 280 1484 440 1490 540 C1496 602 1506 646 1514 684"/>
+        <path d="M1560 120 C1552 286 1554 450 1560 550" />
+      </g>
+      <g fill="none" stroke="#a7ac93" stroke-width=".9" opacity=".12">
+        <path d="M1160 210 C1240 200 1340 208 1440 200"/>
+        <path d="M1156 320 C1248 310 1360 318 1466 310"/>
+        <path d="M1152 430 C1250 420 1370 428 1482 420"/>
+        <path d="M1150 540 C1254 530 1380 538 1496 530"/>
+        <path d="M1156 646 C1260 638 1386 646 1500 638"/>
+      </g>
+      <path d="M1160 334 C1250 324 1360 330 1466 322" fill="none" stroke="#0d1715" stroke-width="3.4" opacity=".3"/>
+      <path d="M1160 342 C1250 332 1360 338 1466 330" fill="none" stroke="#0d1715" stroke-width="1.1" opacity=".35"/>
+      <g fill="#101a17" opacity=".5"><circle cx="1268" cy="330" r="2"/><circle cx="1352" cy="328" r="2"/><circle cx="1438" cy="326" r="2"/></g>
+      <path d="M1330 452 l74 -6 l10 62 l-78 8 z" fill="#5b6250" opacity=".17"/>
+      <path d="M1330 452 l74 -6" stroke="#0b1412" stroke-width="1" opacity=".4"/>
+      <path d="M1466 590 l54 -4 l6 44 l-58 6 z" fill="#4b5344" opacity=".14"/>
+      <path d="M1500 120 C1536 300 1540 520 1512 700 L1640 698 L1640 118 Z" fill="#070f0e" opacity=".26"/>
+      <path d="M1112 118 L1640 96 L1640 122 L1112 138 Z" fill="#0a1211" opacity=".96"/>
+      <path d="M1116 120 L1640 98" stroke="#b89a63" stroke-width="1.2" opacity=".14"/>
+      <path d="M1152 700 C1260 690 1380 700 1480 692 C1560 686 1600 690 1640 686" fill="none" stroke="#0a1211" stroke-width="7" opacity=".9"/>
+      <path d="M1154 704 C1270 694 1390 704 1500 696" fill="none" stroke="#a78d5c" stroke-width="1.3" opacity=".18"/>
+      <path d="M1108 690 C1180 748 1290 772 1400 776 L1400 700 L1152 700 Z" fill="#050c0b" opacity=".9"/>
+
+    <g>
+      <ellipse cx="150" cy="744" rx="80" ry="60" fill="#e0a862" opacity=".1" filter="url(#blur14)"/>
+      <path d="M139 718 L161 718 L160 726 L140 726 Z" fill="#050b0a"/>
+      <path d="M143 726 L157 726 L154 758 L146 758 Z" fill="#1a1610" opacity=".95"/>
+      <path d="M147 731 L153 731 L151 754 L149 754 Z" fill="#f3cf8e" opacity=".5"/>
+      <path d="M140 758 L160 758" stroke="#0a0f0c" stroke-width="1.6" opacity=".9"/>
+      <ellipse cx="150" cy="764" rx="26" ry="9" fill="#c88f52" opacity=".08" filter="url(#blur10)"/>
+    </g>
+    <g>
+      <path d="M608 476 L608 470" stroke="#040b0b" stroke-width="5" stroke-linecap="round"/>
+      <path d="M618 476 L618 470" stroke="#040b0b" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="608" cy="466" r="2.2" fill="#040b0b"/><circle cx="618" cy="466" r="2.2" fill="#040b0b"/>
+      <ellipse cx="1186" cy="530" rx="7" ry="44" fill="#c39a55" opacity=".1" filter="url(#blur10)"/>
+      <path d="M1186 492 L1182 566" stroke="#c39a55" stroke-width="3" opacity=".16"/>
+      <path d="M1186 492 L1182 566" stroke="#f0cf95" stroke-width=".8" opacity=".3"/>
+      <g opacity=".62">
+        <path d="M944 428 C986 408 1046 410 1082 430 C1046 450 986 452 944 436 Z" fill="#0a1414" opacity=".55"/>
+        <path d="M944 428 C986 408 1046 410 1082 430" fill="none" stroke="#a89872" stroke-width="1" opacity=".2"/>
+        <ellipse cx="1014" cy="430" rx="19" ry="11" fill="#050b0b"/>
+        <ellipse cx="1016" cy="429" rx="1.8" ry="6" fill="#d8c48e" opacity=".85"/>
+        <path d="M956 434 C990 444 1040 444 1070 434" fill="none" stroke="#8f8a68" stroke-width=".8" opacity=".14"/>
+      </g>
+    </g>
+    <g>
+      <path d="M1156 92 L1162 150 L1164 300 L1162 450 L1156 600 L1150 700" fill="none" stroke="#0a1311" stroke-width="10" opacity=".96"/>
+      <path d="M1160 92 L1166 150 L1168 300 L1166 450 L1160 600 L1154 700" fill="none" stroke="#6d7562" stroke-width="1.5" opacity=".26"/>
+      <path d="M1157 40 L1165 40 L1167 92 L1155 92 Z" fill="#0a120f"/>
+      <path d="M1161 40 L1161 16" stroke="#0a120f" stroke-width="4"/>
+      <path d="M1152 34 L1170 34" stroke="#8b7448" stroke-width="2" opacity=".3"/>
+      <path d="M1156 92 L1172 92" stroke="#8b7448" stroke-width="2.4" opacity=".26"/>
+      <g fill="none" stroke="#7d8571" stroke-width="2.2" opacity=".42">
+        <ellipse cx="1158" cy="170" rx="7" ry="3.4"/>
+        <ellipse cx="1161" cy="262" rx="7" ry="3.4"/>
+        <ellipse cx="1163" cy="356" rx="7" ry="3.4"/>
+        <ellipse cx="1162" cy="452" rx="7" ry="3.4"/>
+        <ellipse cx="1159" cy="548" rx="7" ry="3.4"/>
+        <ellipse cx="1153" cy="644" rx="7" ry="3.4"/>
+      </g>
+      <path d="M1152 700 L1170 700" stroke="#0a1311" stroke-width="7" opacity=".9"/>
+    </g>
+    <g stroke="#8fa090" stroke-width="1" opacity=".06" stroke-linecap="round">
+      <path d="M120 40 L96 190"/><path d="M300 10 L268 200"/><path d="M470 60 L444 240"/>
+      <path d="M640 20 L616 180"/><path d="M760 90 L740 250"/><path d="M900 30 L880 210"/>
+      <path d="M1040 70 L1020 230"/><path d="M1180 20 L1164 170"/><path d="M1320 60 L1304 240"/>
+      <path d="M1440 30 L1428 200"/><path d="M220 120 L200 280"/><path d="M560 140 L544 300"/>
+    </g>
+    </svg>
+      <h2 class="sr-only">第 21 幕</h2>
+      <article class="copy layout-epigraph anchor-center-low">
+  <div class="copy-inner">
+    <p>暗沉的乌云从天边涌起，<br/>鼓胀的风吹满船帆。</p>
+  </div>
+</article>
+    </div>
+  </section>
+</main>
+
+<div class="helm" id="helm">
+  <button class="helm__btn" id="wheel" type="button" aria-label="转舵，前往第 2 幕" aria-describedby="hint">
+    <svg class="wheel" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+      <g class="wheel-turn">
+        <g transform="rotate(0 50 50)"><line x1="50" y1="50" x2="50" y2="14" stroke="#b18b4f" stroke-width=".9" opacity=".72"/><line x1="50" y1="41" x2="50" y2="52" stroke="#e2c18a" stroke-width=".55" opacity=".55"/><circle cx="50" cy="52" r="3.3" fill="#21190f" stroke="#b18b4f" stroke-width=".6"/><circle cx="50" cy="52" r="1.15" fill="#c9a66b" opacity=".7"/></g>
+        <g transform="rotate(45 50 50)"><line x1="50" y1="50" x2="50" y2="14" stroke="#b18b4f" stroke-width=".9" opacity=".72"/><line x1="50" y1="41" x2="50" y2="52" stroke="#e2c18a" stroke-width=".55" opacity=".55"/><circle cx="50" cy="52" r="3.3" fill="#21190f" stroke="#b18b4f" stroke-width=".6"/><circle cx="50" cy="52" r="1.15" fill="#c9a66b" opacity=".7"/></g>
+        <g transform="rotate(90 50 50)"><line x1="50" y1="50" x2="50" y2="14" stroke="#b18b4f" stroke-width=".9" opacity=".72"/><line x1="50" y1="41" x2="50" y2="52" stroke="#e2c18a" stroke-width=".55" opacity=".55"/><circle cx="50" cy="52" r="3.3" fill="#21190f" stroke="#b18b4f" stroke-width=".6"/><circle cx="50" cy="52" r="1.15" fill="#c9a66b" opacity=".7"/></g>
+        <g transform="rotate(135 50 50)"><line x1="50" y1="50" x2="50" y2="14" stroke="#b18b4f" stroke-width=".9" opacity=".72"/><line x1="50" y1="41" x2="50" y2="52" stroke="#e2c18a" stroke-width=".55" opacity=".55"/><circle cx="50" cy="52" r="3.3" fill="#21190f" stroke="#b18b4f" stroke-width=".6"/><circle cx="50" cy="52" r="1.15" fill="#c9a66b" opacity=".7"/></g>
+        <g transform="rotate(180 50 50)"><line x1="50" y1="50" x2="50" y2="14" stroke="#b18b4f" stroke-width=".9" opacity=".72"/><line x1="50" y1="41" x2="50" y2="52" stroke="#e2c18a" stroke-width=".55" opacity=".55"/><circle cx="50" cy="52" r="3.3" fill="#21190f" stroke="#b18b4f" stroke-width=".6"/><circle cx="50" cy="52" r="1.15" fill="#c9a66b" opacity=".7"/></g>
+        <g transform="rotate(225 50 50)"><line x1="50" y1="50" x2="50" y2="14" stroke="#b18b4f" stroke-width=".9" opacity=".72"/><line x1="50" y1="41" x2="50" y2="52" stroke="#e2c18a" stroke-width=".55" opacity=".55"/><circle cx="50" cy="52" r="3.3" fill="#21190f" stroke="#b18b4f" stroke-width=".6"/><circle cx="50" cy="52" r="1.15" fill="#c9a66b" opacity=".7"/></g>
+        <g transform="rotate(270 50 50)"><line x1="50" y1="50" x2="50" y2="14" stroke="#b18b4f" stroke-width=".9" opacity=".72"/><line x1="50" y1="41" x2="50" y2="52" stroke="#e2c18a" stroke-width=".55" opacity=".55"/><circle cx="50" cy="52" r="3.3" fill="#21190f" stroke="#b18b4f" stroke-width=".6"/><circle cx="50" cy="52" r="1.15" fill="#c9a66b" opacity=".7"/></g>
+        <g transform="rotate(315 50 50)"><line x1="50" y1="50" x2="50" y2="14" stroke="#b18b4f" stroke-width=".9" opacity=".72"/><line x1="50" y1="41" x2="50" y2="52" stroke="#e2c18a" stroke-width=".55" opacity=".55"/><circle cx="50" cy="52" r="3.3" fill="#21190f" stroke="#b18b4f" stroke-width=".6"/><circle cx="50" cy="52" r="1.15" fill="#c9a66b" opacity=".7"/></g>
+      </g>
+      <circle cx="50" cy="50" r="48" fill="none" stroke="#a8844d" stroke-width="1.05" opacity=".78"/>
+      <circle cx="50" cy="50" r="40" fill="none" stroke="#6f5733" stroke-width=".55" opacity=".55"/>
+      <circle cx="50" cy="50" r="29" fill="rgba(14,17,12,.62)" stroke="#8f6f3f" stroke-width=".48" opacity=".9"/>
+      <g class="wheel-ticks"><circle class="tick now" data-i="0" cx="56.59" cy="6.29" r="2.2"/><circle class="tick future" data-i="1" cx="69.18" cy="10.18" r="2.2"/><circle class="tick future" data-i="2" cx="80.06" cy="17.60" r="2.2"/><circle class="tick future" data-i="3" cx="88.28" cy="27.90" r="2.2"/><circle class="tick future" data-i="4" cx="93.09" cy="40.16" r="2.2"/><circle class="tick future" data-i="5" cx="94.08" cy="53.30" r="2.2"/><circle class="tick future" data-i="6" cx="91.14" cy="66.15" r="2.2"/><circle class="tick future" data-i="7" cx="84.56" cy="77.56" r="2.2"/><circle class="tick future" data-i="8" cx="74.90" cy="86.52" r="2.2"/><circle class="tick future" data-i="9" cx="63.03" cy="92.24" r="2.2"/><circle class="tick future" data-i="10" cx="50.00" cy="94.20" r="2.2"/><circle class="tick future" data-i="11" cx="36.97" cy="92.24" r="2.2"/><circle class="tick future" data-i="12" cx="25.10" cy="86.52" r="2.2"/><circle class="tick future" data-i="13" cx="15.44" cy="77.56" r="2.2"/><circle class="tick future" data-i="14" cx="8.86" cy="66.15" r="2.2"/><circle class="tick future" data-i="15" cx="5.92" cy="53.30" r="2.2"/><circle class="tick future" data-i="16" cx="6.91" cy="40.16" r="2.2"/><circle class="tick future" data-i="17" cx="11.72" cy="27.90" r="2.2"/><circle class="tick future" data-i="18" cx="19.94" cy="17.60" r="2.2"/><circle class="tick future" data-i="19" cx="30.82" cy="10.18" r="2.2"/><circle class="tick future" data-i="20" cx="43.41" cy="6.29" r="2.2"/><circle class="tick tick--half" cx="92.7" cy="59.9" r="1.45"/></g>
+      <circle cx="50" cy="50" r="10.8" fill="#1b1710" stroke="#b18b4f" stroke-width=".62"/>
+      <path d="M50 39.4 L53.1 47 L60.7 50 L53.1 53 L50 60.6 L46.9 53 L39.3 50 L46.9 47 Z"
+            fill="#c3a267" opacity=".88"/>
+      <circle cx="50" cy="50" r="2.1" fill="#090d0b" stroke="#d3b57a" stroke-width=".38"/>
+      <g class="wheel-blood">
+        <path d="M11 41 C16 27 26 16 41 10.5" fill="none" stroke="#8d1a11" stroke-width="7.2" stroke-linecap="round" opacity=".62"/>
+        <path d="M12.5 40 C17.5 27.5 27 17.5 40.5 12.5" fill="none" stroke="#d0472f" stroke-width="1.7" stroke-linecap="round" opacity=".34"/>
+        <path d="M67 17.5 C77.5 26 85 37 90.5 49" fill="none" stroke="#7d150e" stroke-width="5.2" stroke-linecap="round" opacity=".58"/>
+        <path d="M68.5 19 C78 27.5 84.5 38 89.5 48" fill="none" stroke="#c23c27" stroke-width="1.3" stroke-linecap="round" opacity=".3"/>
+        <path d="M19 32 C18 40 20 46 18.5 54 C17.5 60 18.5 65 17.5 69" fill="none" stroke="#8a150d" stroke-width="3.2" stroke-linecap="round" opacity=".66"/>
+        <path d="M31 16 C32.5 23 31.5 29 32.5 35 C33 39 32 42 32.5 46" fill="none" stroke="#95170f" stroke-width="2.2" stroke-linecap="round" opacity=".55"/>
+        <path d="M44 9.5 C45 14 44 17 45 20" fill="none" stroke="#8a150d" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+        <path d="M86 52 C87 57 86 60 86.5 64" fill="none" stroke="#8a150d" stroke-width="1.9" stroke-linecap="round" opacity=".45"/>
+        <path d="M50 50 C45 53 39 56 32 60" fill="none" stroke="#6f0f09" stroke-width="3" stroke-linecap="round" opacity=".42"/>
+        <path d="M52 84.5 C60 81.5 71 81.5 79 86.5 C82 88.5 80 92 74.5 93 C65 94.5 56.5 92.5 52.5 89.5 Z" fill="#6a0f0a" opacity=".7"/>
+        <path d="M74 92.5 C75.5 97 74.5 100 73.5 103" fill="none" stroke="#7a110b" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+        <path d="M30 71 C29 74 30 76 29 78" fill="none" stroke="#7a110b" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+        <g fill="#8f1710">
+          <circle cx="23" cy="24" r="1.6" opacity=".5"/><circle cx="37" cy="12" r="1.2" opacity=".45"/>
+          <circle cx="27" cy="60" r="1.1" opacity=".42"/><circle cx="79" cy="30" r="1.3" opacity=".4"/>
+          <circle cx="92" cy="40" r="1" opacity=".34"/><circle cx="64" cy="88" r="1.1" opacity=".42"/>
+          <circle cx="41" cy="78" r=".9" opacity=".3"/>
+        </g>
+      </g>
+    </svg>
+  </button>
+  <span class="helm__hint" id="hint"></span>
+</div>
+<div class="sr-only" id="live" role="status" aria-live="polite"></div>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

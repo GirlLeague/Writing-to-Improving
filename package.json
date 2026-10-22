@@ -1,0 +1,21 @@
+{
+  "name": "writing-to-improving",
+  "version": "1.0.0",
+  "private": true,
+  "description": "海怪！海怪！——暗黑文艺复兴航海叙事，二十一幕滚动长卷。纯静态、零依赖、零外部请求。",
+  "type": "module",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "serve": "node tools/serve.mjs 8080"
+  },
+  "keywords": [
+    "scrollytelling",
+    "narrative",
+    "single-page",
+    "zero-dependency"
+  ],
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18"
+  }
+}
